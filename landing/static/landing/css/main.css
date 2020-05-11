@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&family=Indie+Flower&family=Raleway&display=swap');
+  
+  /* LOGIN PAGE */
+
+  #login-form {
+    margin-top: 15px;
+    border-style: solid;
+    border-radius: 15px ;
+  }
+
+ /* MAIN HOME PAGE */
+
+  /*Nav Bar */
+#landing-nav {
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
+}
+
+#landing-nav .container .navbar-brand {
+  font-size: 2rem;
+}
+
+ .carousel-item {
+   width: 100%;
+   height: 100vh;
+   position: relative;
+ }

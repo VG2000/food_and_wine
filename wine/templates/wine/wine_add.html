@@ -1,0 +1,93 @@
+{% extends 'wine/base.html' %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+<section id="add-wine">
+<div class="container" >
+  <div class="row justify-content-center">
+    <div class="col-6 border mb-2 add-wine-form">
+      <h5 class="text-center py-2">Add Wine</h5>
+      <form method="post" enctype="multipart/form-data" id="wineForm" data-regions-url="{% url 'ajax_load_regions' %}" novalidate>
+        <div class="form-group">
+          {% csrf_token %}
+                    <div class="row">
+            <div class="col-12">
+              {{ form.name|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              {{ form.country|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.region|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.vintage|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              {{ form.retailer|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.price|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.vg_rating|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              {{ form.comment|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              {{ form.blend|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              {{ form.url|as_crispy_field}}
+            </div>
+          </div>
+        </div>
+        <div class="container">
+        <button type="submit" class="btn btn-primary col-3 mb-2">Submit</button>
+        <a href="{% url 'wine-list' %}" class="btn btn-danger col-3 mb-2 float-right">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous">
+    </script>
+
+  <script>
+
+    $("#id_country").change(function () {
+      var url = $("#wineForm").attr("data-regions-url");  // get the url of the `load_cities` view
+      var countryId = $(this).val();  // get the selected country ID from the HTML input
+
+      
+
+      $.ajax({                       // initialize an AJAX request
+        url: url,                    // set the url of the request (= localhost:8000/hr/ajax/load-cities/)
+        data: {
+          'country': countryId       // add the country id to the GET parameters
+        },
+        success: function (data) {   // `data` is the return of the `load_cities` view function
+          $("#id_region").html(data);  // replace the contents of the city input with the data that came from the server
+        }
+      });
+        
+    });
+    
+  </script>
+
+   
+
+{% endblock %}

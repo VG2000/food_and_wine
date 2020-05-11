@@ -1,0 +1,84 @@
+{% extends 'recipe/base.html' %}
+{% load static  %}
+{% load crispy_forms_tags %} 
+
+{% block content%}
+
+<style>
+  body,
+  html {
+    background-image: url('{% static "recipe/img/recipe-back.jpeg" %}');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+  }
+</style>
+
+<div id="add-recipe" class="container" >
+  <div class="row justify-content-center ">
+    <div class="col-8 border mb-2 add-recipe-form">
+      <h5 class="text-center add-header">Edit Recipe</h5>
+      <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          {% csrf_token %} 
+          <!-- {{ form|crispy }} -->
+          <div class="row">
+            <div class="col-8">
+            {{ form.name|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-3">
+              {{ form.meal_type|as_crispy_field}}
+              </div>
+              <div class="col-3">
+              {{ form.cuisine|as_crispy_field}}
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              {{ form.prep_time_hours|as_crispy_field}}
+            </div>
+            <div class="col-3">
+              {{ form.prep_time_mins|as_crispy_field}}
+            </div>
+            <div class="col-3">
+              {{ form.cook_time_hours|as_crispy_field}}
+            </div>
+            <div class="col-3">
+              {{ form.cook_time_mins|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+            {{ form.description|as_crispy_field}}
+            </div>
+          </div>
+           <div class="row">
+             <div class="col-12">
+            {{ form.ingredients|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+             <div class="col-12">
+            {{ form.method|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+             <div class="col-12">
+            {{ form.url|as_crispy_field}}
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+        <button type="submit" class="btn btn-primary col-3 mb-2 mr-5">Save</button>
+        <a href="{% url 'recipe-list' %}" class="btn btn-info col-3 mb-2">Cancel</a>
+         <a href="{% url 'delete-recipe' recipe.pk %}" class="btn btn-danger col-3 mb-2 ml-5">Delete</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

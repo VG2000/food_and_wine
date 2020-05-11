@@ -1,0 +1,19 @@
+{% extends 'wine/base.html' %}
+
+{% load static %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<style>
+    body, html {
+    background-image: url('{% static "wine/img/grapes.jpg" %}');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    }
+</style>
+
+
+{% endblock content %}

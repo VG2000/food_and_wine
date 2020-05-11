@@ -1,0 +1,20 @@
+{% extends 'recipe/base.html' %}
+{% load static %}
+{% block content %}
+
+<header id="recipe-home">
+
+<div class="header-content">
+          <h1 class="recipe-home-typewriter">
+            Recipes for
+            <span
+              class="txt-type"
+              data-wait="2000"
+              data-words='["pizzas", "curries", "meatballs", "cakes", "other yummy things"]'
+            ></span>
+          </h1>
+        </div>
+
+</header>
+ <script src="{% static 'recipe/js/typewriter.js' %}"></script>
+{% endblock %}

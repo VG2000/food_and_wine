@@ -1,0 +1,57 @@
+{% extends 'recipe/base.html' %} {% load static %} {% block content %}
+
+<style>
+  body,
+  html {
+    background-image: url('{% static "recipe/img/recipe-back.jpeg" %}');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+</style>
+
+<div class="container recipe-detail py-2">
+  <div class="recipe-name mx-auto">
+    <h1>{{ recipe.name }}</h1>
+  </div>
+  <hr />
+  <div class="recipe-description">
+    {{ recipe.description | safe | linebreaks}}
+  </div>
+  <hr />
+  <div class="time-type">
+    <div class="prep-time">
+      <label>Prep time: </label>
+      {{ recipe.prep_time }}
+    </div>
+
+    <div class="cook-time">
+      <label>Cooking time:</label>
+      {{ recipe.cook_time }}
+    </div>
+
+    <div class="total-time">
+      <label>Total time:</label>
+      {{ recipe.total_time}}
+    </div>
+    <div class="serves">
+      <label>Serves: </label>
+      {{ recipe.serves }}
+    </div>
+  </div>
+  <hr />
+  <p class="bold">Ingredients:</p>
+  <div class="ingredients">
+    {{ recipe.ingredients | safe | linebreaks }}
+  </div>
+  <hr />
+  <p class="bold">Method:</p>
+  <div class="method py-2">
+    {{ recipe.method | safe | linebreaks}}
+  </div>
+</div>
+<div class="container text-center">
+ <a class="btn btn-primary col-3 mb-3" href="{% url 'edit-recipe' recipe.pk %}">Edit</a>
+</div>
+{% endblock %}

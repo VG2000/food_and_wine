@@ -1,0 +1,68 @@
+{% extends 'wine/base.html' %}
+{% load crispy_forms_tags %} 
+{% block content %}
+
+<section id="edit-wine">
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-6 border mb-2 edit-wine-form">
+      <h5 class="text-center mt-3">Edit Wine</h5>
+      <form id="wine-edit-form" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          {% csrf_token %} 
+          <div class="row">
+            <div class="col-12">
+              {{ form.name|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              {{ form.country|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.region|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.vintage|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              {{ form.retailer|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.price|as_crispy_field}}
+            </div>
+            <div class="col-4">
+              {{ form.vg_rating|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              {{ form.comment|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              {{ form.blend|as_crispy_field}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              {{ form.url|as_crispy_field}}
+            </div>
+          </div>
+        </div>
+        <div class="container">
+        <button type="submit" class="btn btn-primary col-3 mb-2 mr-2">Submit</button>
+        <a href="{% url 'delete-wine' wine.pk %}" class="btn btn-danger col-3 mb-2 ml-5">Delete</a>
+        <a href="{% url 'wine-home' %}" class="btn btn-info col-3 mb-2 float-right">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+  
+{% endblock %}
