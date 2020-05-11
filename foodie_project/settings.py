@@ -132,3 +132,7 @@ LOGIN_REDIRECT_URL = 'landing-home'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+try:
+    from .local_settings import *
+except ImportError:
+    pass
