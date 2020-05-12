@@ -25,3 +25,14 @@
    height: 100vh;
    position: relative;
  }
+
+
+@media only screen and (max-width: 768px) {
+ #landing-nav .container .navbar-brand {
+  font-size: 1.5rem;
+}
+ #landing-nav {
+  font-size: 1rem;
+}
+
+}

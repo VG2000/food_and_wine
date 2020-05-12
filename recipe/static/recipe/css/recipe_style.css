@@ -82,6 +82,11 @@ body {
 }
 
 /* Recipe List Page */
+.filter-recipe .form-row {
+  display: flex;
+  justify-content: space-evenly; 
+}
+
 #recipe-filter {
   font-family: 'Raleway', sans-serif;
 }
@@ -142,4 +147,16 @@ body {
 .add-header {
   font-weight: bold;
   padding-top: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  #recipe-nav .container .navbar-brand {
+  font-size: 1.5rem;
+}
+ #recipe-nav {
+  font-size: 1rem;
+}
+#recipe-home .recipe-home-typewriter {
+  font-size: 2rem;
+}
 }

@@ -25,86 +25,79 @@
     />
   </head>
 
+
   <body>
-    <nav id="wine-nav" class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-      <div class="container">
-        <a href="{% url 'landing-home' %}" class="navbar-brand">Food & Wine</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarContent"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav id="wine-nav" class="navbar navbar-expand-sm navbar-dark sticky-top bg-dark">
+        <div class="container">
+          <a href="{% url 'landing-home' %}" class="navbar-brand">Food & Wine</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!--make navbar highlight selected navbar link-->
-        <div class="collapse navbar-collapse" id="navbarContent">
-          <ul class="navbar-nav mr-auto">
+          <!--make navbar highlight selected navbar link-->
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li
+                    {% if '/wine/' == request.path %}
+                    class="nav-item active mr-3"
+                    {% else %}
+                    class="nav-item mr-3"
+                    {% endif %}
+                >
+              <a class="nav-link" href="{% url 'wine-home' %}">Home</a>
+              </li>
+
               <li
-                  {% if '/wine/' == request.path %}
-                  class="nav-item active mr-3"
-                  {% else %}
-                  class="nav-item mr-3"
-                  {% endif %}
-              >
-            <a class="nav-link" href="{% url 'wine-home' %}">Home</a>
-            </li>
+                    {% if '/wine/list/' in request.path %}
+                    class="nav-item active mr-3"
+                    {% else %}
+                    class="nav-item mr-3"
+                    {% endif %}
+                >
+              <a class="nav-link" href="{% url 'wine-list' %}">Wine List</a>
+              </li>
 
-            <li
-                  {% if '/wine/list/' in request.path %}
-                  class="nav-item active mr-3"
-                  {% else %}
-                  class="nav-item mr-3"
-                  {% endif %}
-              >
-            <a class="nav-link" href="{% url 'wine-list' %}">Wine List</a>
-            </li>
+              <li
+                    {% if '/wine/add/' in request.path %}
+                    class="nav-item active mr-3"
+                    {% else %}
+                    class="nav-item mr-3"
+                    {% endif %}
+                >
+              <a class="nav-link" href="{% url 'add-wine' %}">Add Wine</a>
+              </li>
 
-            <li
-                  {% if '/wine/add/' in request.path %}
-                  class="nav-item active mr-3"
-                  {% else %}
-                  class="nav-item mr-3"
-                  {% endif %}
+              <li
+                    {% if '/wine/search/' in request.path %}
+                    class="nav-item active mr-3"
+                    {% else %}
+                    class="nav-item mr-3"
+                    {% endif %}
+                >
+              <a class="nav-link" href="{% url 'wine-search' %}">Wine Search</a>
+              </li>
+            </ul>
+            <form class="form-inline">
+              <a
+                class="btn btn-danger navbar-right"
+                href="{% url 'logout' %}"
+                >Log Out</a
               >
-            <a class="nav-link" href="{% url 'add-wine' %}">Add Wine</a>
-            </li>
-
-            <li
-                  {% if '/wine/search/' in request.path %}
-                  class="nav-item active mr-3"
-                  {% else %}
-                  class="nav-item mr-3"
-                  {% endif %}
-              >
-            <a class="nav-link" href="{% url 'wine-search' %}">Wine Search</a>
-            </li>
-          </ul>
-          <form class="form-inline">
-            <a
-              class="btn btn-danger navbar-right"
-              href="{% url 'logout' %}"
-              >Log Out</a
-            >
-          </form>
-        </div>
-      </div>
-    </nav>
-
-   
+            </form>
+          </div>
+      </nav>
       {% block content %} {% endblock %}
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous">
-    </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
