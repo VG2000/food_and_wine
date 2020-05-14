@@ -43,13 +43,19 @@ body {
   background: #333;
   padding: 2rem;
   position: relative;
-  height: 100vh;
+  height: 150vh;
 }
 
 
 #wine-list:before {
   content: '';
-  background: url('../img/corks.jpg') no-repeat center center/cover;
+  background: url('../img/corks.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -130,7 +136,7 @@ body {
 
 #edit-wine:before {
   content: '';
-  background: url('../img/vineyard.jpg') no-repeat center center/cover;
+  background: url('../img/vineyard.jpg') repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
