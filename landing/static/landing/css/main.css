@@ -20,11 +20,16 @@
   font-size: 2rem;
 }
 
+
+.carouselExampleIndicators {
+  margin-top: 10px;
+}
  .carousel-item {
    width: 100%;
    height: 100vh;
    position: relative;
  }
+
 
 
 @media only screen and (max-width: 768px) {

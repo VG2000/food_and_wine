@@ -9,6 +9,7 @@ from django.views.generic import (
     UpdateView,
     DeleteView
 )
+from django.core.paginator import Paginator
 from .serializers import WineSerializer
 from rest_framework import generics
 from .models import Wine, Region, Country
@@ -59,7 +60,7 @@ def WineFilterListView(request):
         qs = qs.filter(region__region=region_name).order_by('-id')
 
 
-    # Get country and region list
+    # Get country and region list and sort
     country_list = [i.country.country for i in Wine.objects.distinct('country')]
     country_list.sort()
 
@@ -68,8 +69,14 @@ def WineFilterListView(request):
 
     sort_qs = qs.order_by('country__country', 'region__region')
 
+    # Pagination
+    # paginator = Paginator(sort_qs, 12) 
+    # page_number = request.GET.get('page')
+    # page_obj = paginator.get_page((page_number))
+ 
+
     context = {
-        'wines': sort_qs,
+        'wines': sort_qs,  #page_obj, if we are using pagination
         'country': country_list,
         'region': region_list,
         'vg_rating': Wine.objects.order_by('vg_rating').distinct('vg_rating')

@@ -15,6 +15,7 @@ body {
 
 /* use viewport-relative units to cover page fully */
 body {
+  background: #faf9f9;
   height: 100vh;
   width: 100vw;
 }
@@ -22,7 +23,9 @@ body {
 /* include border and padding in element width and height */
 * {
   box-sizing: border-box;
+  margin: 0;
 }
+
 
 
 /* Wine Home Page */
@@ -36,9 +39,22 @@ body {
 }
 
 /* Wine List Page */
-/* #wine-list {
-  background-color: rgb(248, 249, 249);
+section {
+  background-image: url('../img/corks.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
   padding: 20px;
+}
+
+#wine-list {
+  /* background-color: rgb(133, 193, 233); */
+  padding: 5px;
+  width: 100%;
 }
 
 .wine-filter {
@@ -48,16 +64,17 @@ body {
 .form-row {
   padding: 10px;
   border: 2px solid black;
+  background: var(--primary-color);
   border-radius: 10px;
-} */
+}
 
 /* Background Image */
-#wine-list {
+/* #wine-list {
   color: #fff;
   background: #333;
   padding: 2rem;
   position: relative;
-  height: 95vh;
+  height: 90vh;
 }
 
 
@@ -77,15 +94,19 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0.4;
-}
+} */
 
-.wine-list          { overflow-y: auto; height: 800px; }
+/* SCROLLABLE TABLE */
+/* .wine-list          { overflow-y: auto; height: 800px; }
 .wine-list thead th { position: sticky; top: 0; }
 
 /* Just common table stuff. Really. */
-table  { border-collapse: collapse; width: 100%; }
+/* table  { border-collapse: collapse; width: 100%; }
 th, td { padding: 2px 2px; }
-th     { background:#eee; }
+th     { background:#eee; } */ 
+
+
+
 
 /* Wine List */
 /* Wine Filter */
@@ -105,6 +126,7 @@ th     { background:#eee; }
   font-weight: bold;
   opacity: 0.9;
   position: relative;
+  width: 100%;
   border-style: solid;
   
 }
@@ -114,7 +136,10 @@ th     { background:#eee; }
   vertical-align: middle;
 }
 
-
+.pagination {
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+}
 
 /* Add Wine Page */
 
@@ -225,7 +250,7 @@ th     { background:#eee; }
 }
 
 #wine-filter-btn {
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 }
 
