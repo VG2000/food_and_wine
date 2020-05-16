@@ -10,7 +10,8 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 40;
+  overflow-x: hidden ;
 }
 
 /* use viewport-relative units to cover page fully */
@@ -53,8 +54,8 @@ section {
 
 #wine-list {
   /* background-color: rgb(133, 193, 233); */
-  padding: 5px;
-  width: 100%;
+  margin: 0;
+
 }
 
 .wine-filter {
@@ -120,13 +121,17 @@ th     { background:#eee; } */
   margin-top: 25px;
 }
 
+.wine-list {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .wine-table {
   background:  var(--primary-color);
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   opacity: 0.9;
   position: relative;
-  width: 100%;
   border-style: solid;
   
 }
@@ -136,10 +141,11 @@ th     { background:#eee; } */
   vertical-align: middle;
 }
 
-.pagination {
+
+/* .pagination {
   font-family: 'Raleway', sans-serif;
   justify-content: center;
-}
+} */
 
 /* Add Wine Page */
 
@@ -149,7 +155,8 @@ th     { background:#eee; } */
   background: #333;
   padding: 2rem;
   position: relative;
-  height: 100vh;
+  height: 94vh;
+  overflow: hidden;
 }
 
 #add-wine:before {
@@ -216,7 +223,7 @@ th     { background:#eee; } */
   background: #333;
   padding: 2rem;
   position: relative;
-  height: 100vh;
+  height: 94vh;
 }
 
 

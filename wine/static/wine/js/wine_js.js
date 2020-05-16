@@ -9,7 +9,6 @@ function filterByCountry(e) {
 const term = e.target.value.toUpperCase();
 const wines = document.querySelectorAll('.wine-row');
 
-console.log(wines)
 wines.forEach(wine => {
     const country = wine.querySelector('.country').innerText.toUpperCase();
 
