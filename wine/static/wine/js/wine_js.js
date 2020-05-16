@@ -80,7 +80,7 @@ wines.forEach(wine => {
 }
 
 // Show all
-function showAll(e) {
+function showAll() {
     const wines = document.querySelectorAll('.wine-row');
 
 wines.forEach(wine => {

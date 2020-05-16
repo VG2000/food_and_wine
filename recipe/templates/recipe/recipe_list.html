@@ -6,10 +6,14 @@
 <section id="recipe-page">
 
 <section id="recipe-header">
- <div class="container col-md-8 filter-recipe">
+ <div class="container filter-recipe">
   <form method="GET" action="." name="RecipeFilterForm">
   <div id="recipe-filter" class="form-row ">
-    <div class="form-group col-md-3">
+       <div class="form-group col-md-2 mr-2">
+      <label for="textSearch">Recipe:</label>
+      <input name="txt_srch" id="txt_srch" type="text" class="form-control-sm" placeholder="Recipe">
+      </div>
+    <div class="form-group col-md-3 ml-5">
       <label >Cuisine</label>
       <select
             id="chooseCuisine"
@@ -39,7 +43,7 @@
             {% endfor %}
           </select>
     </div>
-     <button id="recipe-filter-btn" type="submit" class="btn btn-primary ml-2">Filter</button>
+     <button id="recipe-filter-btn" class="btn btn-primary ml-2">Show All</button>
   </div>
  
   </form>
@@ -52,8 +56,8 @@
       <thead class="thead-light">
         <tr>
           <th>Name</th>
-          <th>Cuisine</th>
           <th>Meal Type</th>
+          <th>Cuisine</th>
           <th>Prep Time</th>
           <th>Cook Time</th>
           <th>Total Time</th>
@@ -64,8 +68,8 @@
       <tbody>
         {% for recipe in recipes %}
         <tr class="recipe-row">
-          <td>{{ recipe.name }}</td>
-          <td>{{ recipe.meal_type}}</td>
+          <td class='name'>{{ recipe.name }}</td>
+          <td class="meal-type">{{ recipe.meal_type}}</td>
           <td class="cuisine">{{ recipe.cuisine }}</td>
           <td>{{ recipe.prep_time }}</td>
           <td>{{ recipe.cook_time }}</td>

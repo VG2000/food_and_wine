@@ -40,11 +40,6 @@ def RecipeListView(request):
     cuisine_name = request.GET.get('cuisine')
     meal_type_name = request.GET.get('meal-type')
 
-    if cuisine_name != None:
-            qs = Recipe.objects.filter(cuisine__cuisine_name=cuisine_name).order_by('cuisine')
-    if meal_type_name != None:
-            qs = qs.filter(meal_type__meal_typ=meal_type_name).order_by('meal_type')
-
     # Get cuisine and meal type list
     cuisine_list = [i.cuisine.cuisine_name for i in Recipe.objects.distinct('cuisine')]
     cuisine_list.sort()
