@@ -6,7 +6,8 @@ urlpatterns = [
     path('', auth_views.LoginView.as_view(template_name='landing/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='landing/logout.html'), name='logout'),
     path('home/', views.home, name='landing-home'),
-    #WINE
+    # Include other app routes
     path('wine/', include('wine.urls')),
     path('recipes/', include('recipe.urls')),
+    path('spanish/', include('spanish.urls')),
 ]

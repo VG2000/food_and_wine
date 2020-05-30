@@ -94,7 +94,6 @@ body {
   border: 2px solid black;
   background: var(--primary-color);
   border-radius: 10px;
-  width: 100%;
   display: flex;
   justify-content: space-evenly; 
 }

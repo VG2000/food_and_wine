@@ -1,0 +1,52 @@
+
+{% extends 'spanish/base.html' %}
+{% load static %}
+{% block content%}
+
+<div class="container header">
+        <h1 id="flash-num">FLASHCARD - #  {{word.id}}</h1>
+</div>
+ <div class="buttons-flip">
+    <button  names="fetchAPI" id="fetchAPI" class="btn btn-primary next">Next Word</button>
+     <button id="showBtn" class="btn btn-primary next">Flip Card</button>
+    </div>
+
+
+<div class="container flashcard">
+   
+    <h1 id="spanish" class="spanish"></h1>
+    <h1 id="english" class="english"></h1>
+
+</div>
+
+<div class="container buttons">
+         <form method="POST" enctype="multipart/form-data">
+        {%csrf_token%}
+        <button class="btn btn-primary" type="submit">Button to Revision List</button>
+         <a href="{% url 'fetch-word'%}" class="btn btn-primary ">A tag to Revision List</a>
+         </form>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Second default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+  <label class="form-check-label" for="exampleRadios3">
+    Disabled radio
+  </label>
+</div>
+
+<script src="{% static 'spanish/js/spanish.js' %}"></script>
+
+{% endblock %}

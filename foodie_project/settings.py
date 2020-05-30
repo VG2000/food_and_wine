@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'landing.apps.LandingConfig',
     'wine.apps.WineConfig',
     'recipe.apps.RecipeConfig',
+    'spanish.apps.SpanishConfig',
     'crispy_forms',
     'rest_framework'
 ]
@@ -107,6 +108,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Django rest framework NOT SURE I NEED THIS!!!!
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication'
+    ]
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
