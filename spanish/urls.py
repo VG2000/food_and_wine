@@ -1,5 +1,6 @@
 from django.urls import path
 
+
 from .views import SpanishHomeView, SpanishFlashCardView, SpanishSaveWordView,fetchWordAPIView
 
 urlpatterns = [
