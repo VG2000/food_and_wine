@@ -3,7 +3,6 @@
 
 
 ### Custom files to ignore ###
-words.json
 /stuff
 
 ### Django ###

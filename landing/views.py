@@ -6,4 +6,6 @@ def login(request):
 
 
 def home(request):
+
+
     return render(request, 'landing/home.html')

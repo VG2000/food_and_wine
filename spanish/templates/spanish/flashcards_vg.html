@@ -1,0 +1,73 @@
+
+{% extends 'spanish/base.html' %}
+{% load static %}
+{% block content%}
+
+<div class="container header">
+
+
+       
+</div>
+
+ <div class="buttons-flip">
+   <div id="vg_num_words">
+   <p># of words: {{ words }}</p>
+   </div>
+    <button  names="fetchAPI" id="fetchAPI_vg" class="btn btn-primary next">Next Word</button>
+     <button id="vgShowBtn" class="btn btn-primary next">Flip Card</button>
+</div>
+
+<div class="container flashcard">
+   
+    <h1 id="spanish_vg" class="spanish"></h1>
+    <h1 id="english_vg" class="english"></h1>
+
+</div>
+
+<div class="container buttons">
+         <form id="addWord_vg" method="GET" enctype="multipart/form-data">
+           <input type="hidden" name="id" id="flash-num-vg" value="">
+
+        <input class="btn btn-danger" type="submit" value="Delete">
+         </form>
+</div>
+
+
+
+
+<script>
+const spanish_vg = document.getElementById('spanish_vg');
+const engish_vg = document.getElementById('english_vg');
+const vgFetchBtn = document.getElementById('fetchAPI_vg');
+const vgShowBtn = document.getElementById('vgShowBtn');
+const vgNumber = document.getElementById('flash-num-vg');
+
+const vg_url ='http://127.0.0.1:8000/spanish/flashcards/word/vg/'
+
+function vgGetWord() {
+    fetch(vg_url)
+    .then(res => res.json())
+    .then(data => {
+        // need to make test for hide class to make sure that spanish shows and english is hiddem
+        english_vg.classList.remove('show');
+        spanish_vg.classList.remove('hide');
+        spanish_vg.innerText = data['spanish_word']
+        english_vg.innerText = data['english_word']
+        vgNumber.value = `${data['id']}`
+        console.log(data)
+    }     
+    );
+}
+
+function flipCard() {
+    english_vg.classList.toggle('show');
+    spanish_vg.classList.toggle('hide');
+}
+
+vgShowBtn.addEventListener('click', flipCard);
+
+vgFetchBtn.addEventListener('click', vgGetWord);
+
+</script>
+
+{% endblock %}

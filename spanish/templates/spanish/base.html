@@ -27,9 +27,9 @@
 
 
   <body>
-      <nav id="apnish-nav" class="navbar navbar-expand-sm navbar-dark sticky-top bg-dark">
+      <nav id="spanish-nav" class="navbar navbar-expand-sm navbar-dark sticky-top bg-dark">
         <div class="container">
-          <a href="{% url 'landing-home' %}" class="navbar-brand">Spanish</a>
+          <a href="{% url 'landing-home' %}" class="navbar-brand">Home</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -49,11 +49,11 @@
                     class="nav-item mr-3"
                     {% endif %}
                 >
-              <a class="nav-link" href="{% url 'spanish-home' %}">Home</a>
+              <a class="nav-link" href="{% url 'spanish-home' %}">Spanish Home</a>
               </li>
 
               <li
-                    {% if '/spanish/flashcards/' in request.path %}
+                    {% if '/spanish/flashcards/' == request.path %}
                     class="nav-item active mr-3"
                     {% else %}
                     class="nav-item mr-3"
@@ -63,23 +63,13 @@
               </li>
 
               <li
-                    {% if '/wine/add/' in request.path %}
+                    {% if '/spanish/flashcards/vince' == request.path %}
                     class="nav-item active mr-3"
                     {% else %}
                     class="nav-item mr-3"
                     {% endif %}
                 >
-              <a class="nav-link" href="{% url 'add-wine' %}">Add Wine</a>
-              </li>
-
-              <li
-                    {% if '/wine/search/' in request.path %}
-                    class="nav-item active mr-3"
-                    {% else %}
-                    class="nav-item mr-3"
-                    {% endif %}
-                >
-              <a class="nav-link" href="{% url 'wine-search' %}">Wine Search</a>
+              <a class="nav-link" href="{% url 'vg-flashcards' %}">Vince</a>
               </li>
             </ul>
             <form class="form-inline">

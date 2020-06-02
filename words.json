@@ -1,0 +1,5002 @@
+[
+        {
+            "ID": "1",
+            "English": "I",
+            "Spanish": "yo"
+        },
+        {
+            "ID": "2",
+            "English": "to want",
+            "Spanish": "querer"
+        },
+        {
+            "ID": "3",
+            "English": "this",
+            "Spanish": "este"
+        },
+        {
+            "ID": "4",
+            "English": "yes",
+            "Spanish": "sí"
+        },
+        {
+            "ID": "5",
+            "English": "no",
+            "Spanish": "no"
+        },
+        {
+            "ID": "6",
+            "English": "to be able to",
+            "Spanish": "poder"
+        },
+        {
+            "ID": "7",
+            "English": "to speak",
+            "Spanish": "hablar"
+        },
+        {
+            "ID": "8",
+            "English": "to find",
+            "Spanish": "encontrar"
+        },
+        {
+            "ID": "9",
+            "English": "to have",
+            "Spanish": "tener"
+        },
+        {
+            "ID": "10",
+            "English": "to need",
+            "Spanish": "necesitar"
+        },
+        {
+            "ID": "11",
+            "English": "where",
+            "Spanish": "donde"
+        },
+        {
+            "ID": "12",
+            "English": "that",
+            "Spanish": "que"
+        },
+        {
+            "ID": "13",
+            "English": "the",
+            "Spanish": "el / la"
+        },
+        {
+            "ID": "14",
+            "English": "place",
+            "Spanish": "lugar"
+        },
+        {
+            "ID": "15",
+            "English": "home",
+            "Spanish": "casa"
+        },
+        {
+            "ID": "16",
+            "English": "something",
+            "Spanish": "algo"
+        },
+        {
+            "ID": "17",
+            "English": "that",
+            "Spanish": "ese"
+        },
+        {
+            "ID": "18",
+            "English": "and",
+            "Spanish": "y"
+        },
+        {
+            "ID": "19",
+            "English": "to see",
+            "Spanish": "ver"
+        },
+        {
+            "ID": "20",
+            "English": "but",
+            "Spanish": "pero"
+        },
+        {
+            "ID": "21",
+            "English": "to go (go away/leave)",
+            "Spanish": "ir(se)"
+        },
+        {
+            "ID": "22",
+            "English": "to, at",
+            "Spanish": "a"
+        },
+        {
+            "ID": "23",
+            "English": "to say",
+            "Spanish": "decir"
+        },
+        {
+            "ID": "24",
+            "English": "or",
+            "Spanish": "o"
+        },
+        {
+            "ID": "25",
+            "English": "a",
+            "Spanish": "un"
+        },
+        {
+            "ID": "26",
+            "English": "more",
+            "Spanish": "más"
+        },
+        {
+            "ID": "27",
+            "English": "as, like",
+            "Spanish": "como"
+        },
+        {
+            "ID": "28",
+            "English": "is, oneself",
+            "Spanish": "se"
+        },
+        {
+            "ID": "29",
+            "English": "to come",
+            "Spanish": "venir"
+        },
+        {
+            "ID": "30",
+            "English": "my",
+            "Spanish": "mi"
+        },
+        {
+            "ID": "31",
+            "English": "to be",
+            "Spanish": "ser"
+        },
+        {
+            "ID": "32",
+            "English": "to be",
+            "Spanish": "estar"
+        },
+        {
+            "ID": "33",
+            "English": "to live",
+            "Spanish": "vivir"
+        },
+        {
+            "ID": "34",
+            "English": "to pass",
+            "Spanish": "pasar"
+        },
+        {
+            "ID": "35",
+            "English": "day",
+            "Spanish": "día"
+        },
+        {
+            "ID": "36",
+            "English": "year",
+            "Spanish": "año"
+        },
+        {
+            "ID": "37",
+            "English": "week",
+            "Spanish": "semana"
+        },
+        {
+            "ID": "38",
+            "English": "month",
+            "Spanish": "mes"
+        },
+        {
+            "ID": "39",
+            "English": "each",
+            "Spanish": "cada"
+        },
+        {
+            "ID": "40",
+            "English": "time",
+            "Spanish": "tiempo"
+        },
+        {
+            "ID": "41",
+            "English": "to know",
+            "Spanish": "saber"
+        },
+        {
+            "ID": "42",
+            "English": "to know (be familiar with)",
+            "Spanish": "conocer"
+        },
+        {
+            "ID": "43",
+            "English": "to do",
+            "Spanish": "hacer"
+        },
+        {
+            "ID": "44",
+            "English": "to practice",
+            "Spanish": "practicar"
+        },
+        {
+            "ID": "45",
+            "English": "to arrive",
+            "Spanish": "llegar"
+        },
+        {
+            "ID": "46",
+            "English": "too, also",
+            "Spanish": "también"
+        },
+        {
+            "ID": "47",
+            "English": "when",
+            "Spanish": "cuando"
+        },
+        {
+            "ID": "48",
+            "English": "until",
+            "Spanish": "hasta"
+        },
+        {
+            "ID": "49",
+            "English": "morning",
+            "Spanish": "mañana"
+        },
+        {
+            "ID": "50",
+            "English": "he / she",
+            "Spanish": "él / ella"
+        },
+        {
+            "ID": "51",
+            "English": "is pleasing to (to like)",
+            "Spanish": "gustar"
+        },
+        {
+            "ID": "52",
+            "English": "me",
+            "Spanish": "me"
+        },
+        {
+            "ID": "53",
+            "English": "you",
+            "Spanish": "te"
+        },
+        {
+            "ID": "54",
+            "English": "you, him, her",
+            "Spanish": "le"
+        },
+        {
+            "ID": "55",
+            "English": "us",
+            "Spanish": "nos"
+        },
+        {
+            "ID": "56",
+            "English": "them",
+            "Spanish": "les"
+        },
+        {
+            "ID": "57",
+            "English": "friend",
+            "Spanish": "amigo"
+        },
+        {
+            "ID": "58",
+            "English": "food",
+            "Spanish": "comida"
+        },
+        {
+            "ID": "59",
+            "English": "other",
+            "Spanish": "otro"
+        },
+        {
+            "ID": "60",
+            "English": "work",
+            "Spanish": "trabajo"
+        },
+        {
+            "ID": "61",
+            "English": "for, through",
+            "Spanish": "por"
+        },
+        {
+            "ID": "62",
+            "English": "for, in order to",
+            "Spanish": "para"
+        },
+        {
+            "ID": "63",
+            "English": "example",
+            "Spanish": "ejemplo"
+        },
+        {
+            "ID": "64",
+            "English": "of",
+            "Spanish": "de"
+        },
+        {
+            "ID": "65",
+            "English": "in, on",
+            "Spanish": "en"
+        },
+        {
+            "ID": "66",
+            "English": "with",
+            "Spanish": "con"
+        },
+        {
+            "ID": "67",
+            "English": "to give",
+            "Spanish": "dar"
+        },
+        {
+            "ID": "68",
+            "English": "country",
+            "Spanish": "país"
+        },
+        {
+            "ID": "69",
+            "English": "man",
+            "Spanish": "hombre"
+        },
+        {
+            "ID": "70",
+            "English": "woman",
+            "Spanish": "mujer"
+        },
+        {
+            "ID": "71",
+            "English": "to have",
+            "Spanish": "haber"
+        },
+        {
+            "ID": "72",
+            "English": "very",
+            "Spanish": "muy"
+        },
+        {
+            "ID": "73",
+            "English": "much",
+            "Spanish": "mucho"
+        },
+        {
+            "ID": "74",
+            "English": "large",
+            "Spanish": "grande"
+        },
+        {
+            "ID": "75",
+            "English": "less",
+            "Spanish": "menos"
+        },
+        {
+            "ID": "76",
+            "English": "little",
+            "Spanish": "poco"
+        },
+        {
+            "ID": "77",
+            "English": "thing",
+            "Spanish": "cosa"
+        },
+        {
+            "ID": "78",
+            "English": "if",
+            "Spanish": "si"
+        },
+        {
+            "ID": "79",
+            "English": "our",
+            "Spanish": "nuestro"
+        },
+        {
+            "ID": "80",
+            "English": "always",
+            "Spanish": "siempre"
+        },
+        {
+            "ID": "81",
+            "English": "life",
+            "Spanish": "vida"
+        },
+        {
+            "ID": "82",
+            "English": "after",
+            "Spanish": "después"
+        },
+        {
+            "ID": "83",
+            "English": "then",
+            "Spanish": "entonces"
+        },
+        {
+            "ID": "84",
+            "English": "to put",
+            "Spanish": "poner"
+        },
+        {
+            "ID": "85",
+            "English": "duty",
+            "Spanish": "deber"
+        },
+        {
+            "ID": "86",
+            "English": "well",
+            "Spanish": "bien"
+        },
+        {
+            "ID": "87",
+            "English": "between",
+            "Spanish": "entre"
+        },
+        {
+            "ID": "88",
+            "English": "word",
+            "Spanish": "palabra"
+        },
+        {
+            "ID": "89",
+            "English": "now",
+            "Spanish": "ahora"
+        },
+        {
+            "ID": "90",
+            "English": "to learn",
+            "Spanish": "aprender"
+        },
+        {
+            "ID": "91",
+            "English": "your",
+            "Spanish": "tu"
+        },
+        {
+            "ID": "92",
+            "English": "to believe",
+            "Spanish": "creer"
+        },
+        {
+            "ID": "93",
+            "English": "is seeming to (to seem)",
+            "Spanish": "parecer"
+        },
+        {
+            "ID": "94",
+            "English": "nothing",
+            "Spanish": "nada"
+        },
+        {
+            "ID": "95",
+            "English": "all",
+            "Spanish": "todo"
+        },
+        {
+            "ID": "96",
+            "English": "because",
+            "Spanish": "porque"
+        },
+        {
+            "ID": "97",
+            "English": "to help",
+            "Spanish": "ayudar"
+        },
+        {
+            "ID": "98",
+            "English": "to ask",
+            "Spanish": "pedir"
+        },
+        {
+            "ID": "99",
+            "English": "to question",
+            "Spanish": "preguntar"
+        },
+        {
+            "ID": "100",
+            "English": "what",
+            "Spanish": "qué"
+        },
+        {
+            "ID": "101",
+            "English": "it, the, him",
+            "Spanish": "lo"
+        },
+        {
+            "ID": "102",
+            "English": "his, her, their",
+            "Spanish": "su"
+        },
+        {
+            "ID": "103",
+            "English": "here",
+            "Spanish": "aquí"
+        },
+        {
+            "ID": "104",
+            "English": "already",
+            "Spanish": "ya"
+        },
+        {
+            "ID": "105",
+            "English": "without",
+            "Spanish": "sin"
+        },
+        {
+            "ID": "106",
+            "English": "time",
+            "Spanish": "vez"
+        },
+        {
+            "ID": "107",
+            "English": "there is, there are",
+            "Spanish": "hay"
+        },
+        {
+            "ID": "108",
+            "English": "about",
+            "Spanish": "sobre"
+        },
+        {
+            "ID": "109",
+            "English": "you (informal)",
+            "Spanish": "tú"
+        },
+        {
+            "ID": "110",
+            "English": "any, some",
+            "Spanish": "alguno"
+        },
+        {
+            "ID": "111",
+            "English": "same",
+            "Spanish": "mismo"
+        },
+        {
+            "ID": "112",
+            "English": "like that, so",
+            "Spanish": "así"
+        },
+        {
+            "ID": "113",
+            "English": "how",
+            "Spanish": "cómo"
+        },
+        {
+            "ID": "114",
+            "English": "two",
+            "Spanish": "dos"
+        },
+        {
+            "ID": "115",
+            "English": "only",
+            "Spanish": "sólo"
+        },
+        {
+            "ID": "116",
+            "English": "first",
+            "Spanish": "primero"
+        },
+        {
+            "ID": "117",
+            "English": "from",
+            "Spanish": "desde"
+        },
+        {
+            "ID": "118",
+            "English": "or",
+            "Spanish": "ni"
+        },
+        {
+            "ID": "119",
+            "English": "thanks",
+            "Spanish": "gracias"
+        },
+        {
+            "ID": "120",
+            "English": "good",
+            "Spanish": "bueno"
+        },
+        {
+            "ID": "121",
+            "English": "one",
+            "Spanish": "uno"
+        },
+        {
+            "ID": "122",
+            "English": "you (formal)",
+            "Spanish": "usted"
+        },
+        {
+            "ID": "123",
+            "English": "so many, so much",
+            "Spanish": "tanto"
+        },
+        {
+            "ID": "124",
+            "English": "Mr.",
+            "Spanish": "señor"
+        },
+        {
+            "ID": "125",
+            "English": "such, as, so",
+            "Spanish": "tan"
+        },
+        {
+            "ID": "126",
+            "English": "who",
+            "Spanish": "quién"
+        },
+        {
+            "ID": "127",
+            "English": "part",
+            "Spanish": "parte"
+        },
+        {
+            "ID": "128",
+            "English": "is remaining to (to stay)",
+            "Spanish": "quedar"
+        },
+        {
+            "ID": "129",
+            "English": "favor",
+            "Spanish": "favor"
+        },
+        {
+            "ID": "130",
+            "English": "where",
+            "Spanish": "dónde"
+        },
+        {
+            "ID": "131",
+            "English": "never",
+            "Spanish": "nunca"
+        },
+        {
+            "ID": "132",
+            "English": "to lead",
+            "Spanish": "llevar"
+        },
+        {
+            "ID": "133",
+            "English": "to leave",
+            "Spanish": "dejar"
+        },
+        {
+            "ID": "134",
+            "English": "truth",
+            "Spanish": "verdad"
+        },
+        {
+            "ID": "135",
+            "English": "to follow",
+            "Spanish": "seguir"
+        },
+        {
+            "ID": "136",
+            "English": "new",
+            "Spanish": "nuevo"
+        },
+        {
+            "ID": "137",
+            "English": "well",
+            "Spanish": "pues"
+        },
+        {
+            "ID": "138",
+            "English": "to call (be called/name)",
+            "Spanish": "llamar(se)"
+        },
+        {
+            "ID": "139",
+            "English": "best",
+            "Spanish": "mejor"
+        },
+        {
+            "ID": "140",
+            "English": "to think",
+            "Spanish": "pensar"
+        },
+        {
+            "ID": "141",
+            "English": "that",
+            "Spanish": "aquel"
+        },
+        {
+            "ID": "142",
+            "English": "moment",
+            "Spanish": "momento"
+        },
+        {
+            "ID": "143",
+            "English": "god",
+            "Spanish": "dios"
+        },
+        {
+            "ID": "144",
+            "English": "but, rather",
+            "Spanish": "sino"
+        },
+        {
+            "ID": "145",
+            "English": "to leave",
+            "Spanish": "salir"
+        },
+        {
+            "ID": "146",
+            "English": "to return",
+            "Spanish": "volver"
+        },
+        {
+            "ID": "147",
+            "English": "form",
+            "Spanish": "forma"
+        },
+        {
+            "ID": "148",
+            "English": "before",
+            "Spanish": "antes"
+        },
+        {
+            "ID": "149",
+            "English": "although",
+            "Spanish": "aunque"
+        },
+        {
+            "ID": "150",
+            "English": "world",
+            "Spanish": "mundo"
+        },
+        {
+            "ID": "151",
+            "English": "three",
+            "Spanish": "tres"
+        },
+        {
+            "ID": "152",
+            "English": "such",
+            "Spanish": "tal"
+        },
+        {
+            "ID": "153",
+            "English": "there",
+            "Spanish": "ahí"
+        },
+        {
+            "ID": "154",
+            "English": "to take",
+            "Spanish": "tomar"
+        },
+        {
+            "ID": "155",
+            "English": "certain",
+            "Spanish": "cierto"
+        },
+        {
+            "ID": "156",
+            "English": "to, towards",
+            "Spanish": "hacia"
+        },
+        {
+            "ID": "157",
+            "English": "case",
+            "Spanish": "caso"
+        },
+        {
+            "ID": "158",
+            "English": "night",
+            "Spanish": "noche"
+        },
+        {
+            "ID": "159",
+            "English": "to feel",
+            "Spanish": "sentir"
+        },
+        {
+            "ID": "160",
+            "English": "then, later",
+            "Spanish": "luego"
+        },
+        {
+            "ID": "161",
+            "English": "someone",
+            "Spanish": "alguien"
+        },
+        {
+            "ID": "162",
+            "English": "to try",
+            "Spanish": "tratar"
+        },
+        {
+            "ID": "163",
+            "English": "person",
+            "Spanish": "persona"
+        },
+        {
+            "ID": "164",
+            "English": "higher",
+            "Spanish": "mayor"
+        },
+        {
+            "ID": "165",
+            "English": "last",
+            "Spanish": "último"
+        },
+        {
+            "ID": "166",
+            "English": "single",
+            "Spanish": "solo"
+        },
+        {
+            "ID": "167",
+            "English": "own",
+            "Spanish": "propio"
+        },
+        {
+            "ID": "168",
+            "English": "no one",
+            "Spanish": "nadie"
+        },
+        {
+            "ID": "169",
+            "English": "whoever",
+            "Spanish": "quien"
+        },
+        {
+            "ID": "170",
+            "English": "us",
+            "Spanish": "nosotros"
+        },
+        {
+            "ID": "171",
+            "English": "to look",
+            "Spanish": "mirar"
+        },
+        {
+            "ID": "172",
+            "English": "father",
+            "Spanish": "padre"
+        },
+        {
+            "ID": "173",
+            "English": "time, hour",
+            "Spanish": "hora"
+        },
+        {
+            "ID": "174",
+            "English": "people",
+            "Spanish": "gente"
+        },
+        {
+            "ID": "175",
+            "English": "none",
+            "Spanish": "ninguno"
+        },
+        {
+            "ID": "176",
+            "English": "money",
+            "Spanish": "dinero"
+        },
+        {
+            "ID": "177",
+            "English": "almost",
+            "Spanish": "casi"
+        },
+        {
+            "ID": "178",
+            "English": "point",
+            "Spanish": "punto"
+        },
+        {
+            "ID": "179",
+            "English": "done",
+            "Spanish": "hecho"
+        },
+        {
+            "ID": "180",
+            "English": "during",
+            "Spanish": "durante"
+        },
+        {
+            "ID": "181",
+            "English": "any",
+            "Spanish": "cualquier"
+        },
+        {
+            "ID": "182",
+            "English": "hand",
+            "Spanish": "mano"
+        },
+        {
+            "ID": "183",
+            "English": "way",
+            "Spanish": "manera"
+        },
+        {
+            "ID": "184",
+            "English": "which",
+            "Spanish": "cual"
+        },
+        {
+            "ID": "185",
+            "English": "while",
+            "Spanish": "mientras"
+        },
+        {
+            "ID": "186",
+            "English": "to count",
+            "Spanish": "contar"
+        },
+        {
+            "ID": "187",
+            "English": "end",
+            "Spanish": "fin"
+        },
+        {
+            "ID": "188",
+            "English": "type",
+            "Spanish": "tipo"
+        },
+        {
+            "ID": "189",
+            "English": "clear",
+            "Spanish": "claro"
+        },
+        {
+            "ID": "190",
+            "English": "also, besides",
+            "Spanish": "además"
+        },
+        {
+            "ID": "191",
+            "English": "to start",
+            "Spanish": "empezar"
+        },
+        {
+            "ID": "192",
+            "English": "to wait",
+            "Spanish": "esperar"
+        },
+        {
+            "ID": "193",
+            "English": "today",
+            "Spanish": "hoy"
+        },
+        {
+            "ID": "194",
+            "English": "side",
+            "Spanish": "lado"
+        },
+        {
+            "ID": "195",
+            "English": "son",
+            "Spanish": "hijo"
+        },
+        {
+            "ID": "196",
+            "English": "there",
+            "Spanish": "allí"
+        },
+        {
+            "ID": "197",
+            "English": "this",
+            "Spanish": "éste"
+        },
+        {
+            "ID": "198",
+            "English": "problem",
+            "Spanish": "problema"
+        },
+        {
+            "ID": "199",
+            "English": "agreement",
+            "Spanish": "acuerdo"
+        },
+        {
+            "ID": "200",
+            "English": "account",
+            "Spanish": "cuenta"
+        },
+        {
+            "ID": "201",
+            "English": "medium",
+            "Spanish": "medio"
+        },
+        {
+            "ID": "202",
+            "English": "against",
+            "Spanish": "contra"
+        },
+        {
+            "ID": "203",
+            "English": "out",
+            "Spanish": "fuera"
+        },
+        {
+            "ID": "204",
+            "English": "search",
+            "Spanish": "buscar"
+        },
+        {
+            "ID": "205",
+            "English": "within",
+            "Spanish": "dentro"
+        },
+        {
+            "ID": "206",
+            "English": "long",
+            "Spanish": "largo"
+        },
+        {
+            "ID": "207",
+            "English": "safe, secure",
+            "Spanish": "seguro"
+        },
+        {
+            "ID": "208",
+            "English": "to exist",
+            "Spanish": "existir"
+        },
+        {
+            "ID": "209",
+            "English": "child",
+            "Spanish": "niño"
+        },
+        {
+            "ID": "210",
+            "English": "to enter",
+            "Spanish": "entrar"
+        },
+        {
+            "ID": "211",
+            "English": "mother",
+            "Spanish": "madre"
+        },
+        {
+            "ID": "212",
+            "English": "embargo",
+            "Spanish": "embargo"
+        },
+        {
+            "ID": "213",
+            "English": "only",
+            "Spanish": "único"
+        },
+        {
+            "ID": "214",
+            "English": "to work",
+            "Spanish": "trabajar"
+        },
+        {
+            "ID": "215",
+            "English": "small",
+            "Spanish": "pequeño"
+        },
+        {
+            "ID": "216",
+            "English": "high",
+            "Spanish": "alto"
+        },
+        {
+            "ID": "217",
+            "English": "change",
+            "Spanish": "cambio"
+        },
+        {
+            "ID": "218",
+            "English": "to write",
+            "Spanish": "escribir"
+        },
+        {
+            "ID": "219",
+            "English": "four",
+            "Spanish": "cuatro"
+        },
+        {
+            "ID": "220",
+            "English": "to lose",
+            "Spanish": "perder"
+        },
+        {
+            "ID": "221",
+            "English": "history",
+            "Spanish": "historia"
+        },
+        {
+            "ID": "222",
+            "English": "wait",
+            "Spanish": "espera"
+        },
+        {
+            "ID": "223",
+            "English": "idea",
+            "Spanish": "idea"
+        },
+        {
+            "ID": "224",
+            "English": "water",
+            "Spanish": "agua"
+        },
+        {
+            "ID": "225",
+            "English": "to produce",
+            "Spanish": "producir"
+        },
+        {
+            "ID": "226",
+            "English": "city",
+            "Spanish": "ciudad"
+        },
+        {
+            "ID": "227",
+            "English": "state",
+            "Spanish": "estado"
+        },
+        {
+            "ID": "228",
+            "English": "mode",
+            "Spanish": "modo"
+        },
+        {
+            "ID": "229",
+            "English": "name",
+            "Spanish": "nombre"
+        },
+        {
+            "ID": "230",
+            "English": "to occur",
+            "Spanish": "ocurrir"
+        },
+        {
+            "ID": "231",
+            "English": "family",
+            "Spanish": "familia"
+        },
+        {
+            "ID": "232",
+            "English": "reality",
+            "Spanish": "realidad"
+        },
+        {
+            "ID": "233",
+            "English": "to understand",
+            "Spanish": "entender"
+        },
+        {
+            "ID": "234",
+            "English": "to receive",
+            "Spanish": "recibir"
+        },
+        {
+            "ID": "235",
+            "English": "work",
+            "Spanish": "obra"
+        },
+        {
+            "ID": "236",
+            "English": "important",
+            "Spanish": "importante"
+        },
+        {
+            "ID": "237",
+            "English": "with me",
+            "Spanish": "conmigo"
+        },
+        {
+            "ID": "238",
+            "English": "wrong",
+            "Spanish": "mal"
+        },
+        {
+            "ID": "239",
+            "English": "yet",
+            "Spanish": "todavía"
+        },
+        {
+            "ID": "240",
+            "English": "reason",
+            "Spanish": "razón"
+        },
+        {
+            "ID": "241",
+            "English": "that",
+            "Spanish": "cuanto"
+        },
+        {
+            "ID": "242",
+            "English": "low",
+            "Spanish": "bajo"
+        },
+        {
+            "ID": "243",
+            "English": "to remember",
+            "Spanish": "recordar"
+        },
+        {
+            "ID": "244",
+            "English": "group",
+            "Spanish": "grupo"
+        },
+        {
+            "ID": "245",
+            "English": "love",
+            "Spanish": "amor"
+        },
+        {
+            "ID": "246",
+            "English": "thousand",
+            "Spanish": "mil"
+        },
+        {
+            "ID": "247",
+            "English": "mine",
+            "Spanish": "mío"
+        },
+        {
+            "ID": "248",
+            "English": "human",
+            "Spanish": "humano"
+        },
+        {
+            "ID": "249",
+            "English": "to finish",
+            "Spanish": "terminar"
+        },
+        {
+            "ID": "250",
+            "English": "to allow",
+            "Spanish": "permitir"
+        },
+        {
+            "ID": "251",
+            "English": "to appear",
+            "Spanish": "aparecer"
+        },
+        {
+            "ID": "252",
+            "English": "to get",
+            "Spanish": "conseguir"
+        },
+        {
+            "ID": "253",
+            "English": "afternoon",
+            "Spanish": "tarde"
+        },
+        {
+            "ID": "254",
+            "English": "to start",
+            "Spanish": "comenzar"
+        },
+        {
+            "ID": "255",
+            "English": "several",
+            "Spanish": "varios"
+        },
+        {
+            "ID": "256",
+            "English": "possible",
+            "Spanish": "posible"
+        },
+        {
+            "ID": "257",
+            "English": "yet",
+            "Spanish": "aún"
+        },
+        {
+            "ID": "258",
+            "English": "to serve",
+            "Spanish": "servir"
+        },
+        {
+            "ID": "259",
+            "English": "general",
+            "Spanish": "general"
+        },
+        {
+            "ID": "260",
+            "English": "to take",
+            "Spanish": "sacar"
+        },
+        {
+            "ID": "261",
+            "English": "relationship",
+            "Spanish": "relación"
+        },
+        {
+            "ID": "262",
+            "English": "five",
+            "Spanish": "cinco"
+        },
+        {
+            "ID": "263",
+            "English": "body",
+            "Spanish": "cuerpo"
+        },
+        {
+            "ID": "264",
+            "English": "with you",
+            "Spanish": "contigo"
+        },
+        {
+            "ID": "265",
+            "English": "to maintain",
+            "Spanish": "mantener"
+        },
+        {
+            "ID": "266",
+            "English": "before",
+            "Spanish": "ante"
+        },
+        {
+            "ID": "267",
+            "English": "principle",
+            "Spanish": "principio"
+        },
+        {
+            "ID": "268",
+            "English": "to result",
+            "Spanish": "resultar"
+        },
+        {
+            "ID": "269",
+            "English": "equal",
+            "Spanish": "igual"
+        },
+        {
+            "ID": "270",
+            "English": "too",
+            "Spanish": "demasiado"
+        },
+        {
+            "ID": "271",
+            "English": "town",
+            "Spanish": "pueblo"
+        },
+        {
+            "ID": "272",
+            "English": "second",
+            "Spanish": "segundo"
+        },
+        {
+            "ID": "273",
+            "English": "to read",
+            "Spanish": "leer"
+        },
+        {
+            "ID": "274",
+            "English": "to fall",
+            "Spanish": "caer"
+        },
+        {
+            "ID": "275",
+            "English": "to change",
+            "Spanish": "cambiar"
+        },
+        {
+            "ID": "276",
+            "English": "eye",
+            "Spanish": "ojo"
+        },
+        {
+            "ID": "277",
+            "English": "goodbye",
+            "Spanish": "adiós"
+        },
+        {
+            "ID": "278",
+            "English": "street",
+            "Spanish": "calle"
+        },
+        {
+            "ID": "279",
+            "English": "to present",
+            "Spanish": "presentar"
+        },
+        {
+            "ID": "280",
+            "English": "white",
+            "Spanish": "blanco"
+        },
+        {
+            "ID": "281",
+            "English": "to create",
+            "Spanish": "crear"
+        },
+        {
+            "ID": "282",
+            "English": "to open",
+            "Spanish": "abrir"
+        },
+        {
+            "ID": "283",
+            "English": "book",
+            "Spanish": "libro"
+        },
+        {
+            "ID": "284",
+            "English": "different",
+            "Spanish": "distinto"
+        },
+        {
+            "ID": "285",
+            "English": "force",
+            "Spanish": "fuerza"
+        },
+        {
+            "ID": "286",
+            "English": "light",
+            "Spanish": "luz"
+        },
+        {
+            "ID": "287",
+            "English": "according to",
+            "Spanish": "según"
+        },
+        {
+            "ID": "288",
+            "English": "saint",
+            "Spanish": "santo"
+        },
+        {
+            "ID": "289",
+            "English": "front",
+            "Spanish": "frente"
+        },
+        {
+            "ID": "290",
+            "English": "to consider",
+            "Spanish": "considerar"
+        },
+        {
+            "ID": "291",
+            "English": "really",
+            "Spanish": "realmente"
+        },
+        {
+            "ID": "292",
+            "English": "police",
+            "Spanish": "policía"
+        },
+        {
+            "ID": "293",
+            "English": "to hear",
+            "Spanish": "oír"
+        },
+        {
+            "ID": "294",
+            "English": "whose",
+            "Spanish": "cuyo"
+        },
+        {
+            "ID": "295",
+            "English": "sense",
+            "Spanish": "sentido"
+        },
+        {
+            "ID": "296",
+            "English": "to end",
+            "Spanish": "acabar"
+        },
+        {
+            "ID": "297",
+            "English": "step",
+            "Spanish": "paso"
+        },
+        {
+            "ID": "298",
+            "English": "situation",
+            "Spanish": "situación"
+        },
+        {
+            "ID": "299",
+            "English": "serious",
+            "Spanish": "serio"
+        },
+        {
+            "ID": "300",
+            "English": "head",
+            "Spanish": "cabeza"
+        },
+        {
+            "ID": "301",
+            "English": "quite",
+            "Spanish": "bastante"
+        },
+        {
+            "ID": "302",
+            "English": "brother",
+            "Spanish": "hermano"
+        },
+        {
+            "ID": "303",
+            "English": "to convert",
+            "Spanish": "convertir"
+        },
+        {
+            "ID": "304",
+            "English": "grace",
+            "Spanish": "gracia"
+        },
+        {
+            "ID": "305",
+            "English": "century",
+            "Spanish": "siglo"
+        },
+        {
+            "ID": "306",
+            "English": "last, past",
+            "Spanish": "pasado"
+        },
+        {
+            "ID": "307",
+            "English": "bad",
+            "Spanish": "malo"
+        },
+        {
+            "ID": "308",
+            "English": "land",
+            "Spanish": "tierra"
+        },
+        {
+            "ID": "309",
+            "English": "paper",
+            "Spanish": "papel"
+        },
+        {
+            "ID": "310",
+            "English": "affection",
+            "Spanish": "cariño"
+        },
+        {
+            "ID": "311",
+            "English": "valid, voucher",
+            "Spanish": "vale"
+        },
+        {
+            "ID": "312",
+            "English": "neither",
+            "Spanish": "tampoco"
+        },
+        {
+            "ID": "313",
+            "English": "social",
+            "Spanish": "social"
+        },
+        {
+            "ID": "314",
+            "English": "old",
+            "Spanish": "viejo"
+        },
+        {
+            "ID": "315",
+            "English": "Mrs.",
+            "Spanish": "señora"
+        },
+        {
+            "ID": "316",
+            "English": "topic",
+            "Spanish": "tema"
+        },
+        {
+            "ID": "317",
+            "English": "political",
+            "Spanish": "político"
+        },
+        {
+            "ID": "318",
+            "English": "Spanish",
+            "Spanish": "Español"
+        },
+        {
+            "ID": "319",
+            "English": "dead",
+            "Spanish": "muerto"
+        },
+        {
+            "ID": "320",
+            "English": "to win",
+            "Spanish": "ganar"
+        },
+        {
+            "ID": "321",
+            "English": "to form",
+            "Spanish": "formar"
+        },
+        {
+            "ID": "322",
+            "English": "class",
+            "Spanish": "clase"
+        },
+        {
+            "ID": "323",
+            "English": "fast",
+            "Spanish": "rápido"
+        },
+        {
+            "ID": "324",
+            "English": "to bring",
+            "Spanish": "traer"
+        },
+        {
+            "ID": "325",
+            "English": "to start from, to divide",
+            "Spanish": "partir"
+        },
+        {
+            "ID": "326",
+            "English": "to die",
+            "Spanish": "morir"
+        },
+        {
+            "ID": "327",
+            "English": "even",
+            "Spanish": "incluso"
+        },
+        {
+            "ID": "328",
+            "English": "luck",
+            "Spanish": "suerte"
+        },
+        {
+            "ID": "329",
+            "English": "field, country",
+            "Spanish": "campo"
+        },
+        {
+            "ID": "330",
+            "English": "care",
+            "Spanish": "cuidado"
+        },
+        {
+            "ID": "331",
+            "English": "to accept",
+            "Spanish": "aceptar"
+        },
+        {
+            "ID": "332",
+            "English": "perhaps",
+            "Spanish": "quizás"
+        },
+        {
+            "ID": "333",
+            "English": "to perform",
+            "Spanish": "realizar"
+        },
+        {
+            "ID": "334",
+            "English": "hundred",
+            "Spanish": "ciento"
+        },
+        {
+            "ID": "335",
+            "English": "fear",
+            "Spanish": "miedo"
+        },
+        {
+            "ID": "336",
+            "English": "order",
+            "Spanish": "orden"
+        },
+        {
+            "ID": "337",
+            "English": "door",
+            "Spanish": "puerta"
+        },
+        {
+            "ID": "338",
+            "English": "soon",
+            "Spanish": "pronto"
+        },
+        {
+            "ID": "339",
+            "English": "to suppose",
+            "Spanish": "suponer"
+        },
+        {
+            "ID": "340",
+            "English": "to understand",
+            "Spanish": "comprender"
+        },
+        {
+            "ID": "341",
+            "English": "final",
+            "Spanish": "final"
+        },
+        {
+            "ID": "342",
+            "English": "interest",
+            "Spanish": "interés"
+        },
+        {
+            "ID": "343",
+            "English": "following",
+            "Spanish": "siguiente"
+        },
+        {
+            "ID": "344",
+            "English": "view",
+            "Spanish": "vista"
+        },
+        {
+            "ID": "345",
+            "English": "to achieve",
+            "Spanish": "lograr"
+        },
+        {
+            "ID": "346",
+            "English": "other, the rest",
+            "Spanish": "demás"
+        },
+        {
+            "ID": "347",
+            "English": "you",
+            "Spanish": "os"
+        },
+        {
+            "ID": "348",
+            "English": "boy",
+            "Spanish": "chico"
+        },
+        {
+            "ID": "349",
+            "English": "difficult",
+            "Spanish": "difícil"
+        },
+        {
+            "ID": "350",
+            "English": "how much",
+            "Spanish": "cuánto"
+        },
+        {
+            "ID": "351",
+            "English": "number",
+            "Spanish": "número"
+        },
+        {
+            "ID": "352",
+            "English": "to explain",
+            "Spanish": "explicar"
+        },
+        {
+            "ID": "353",
+            "English": "come",
+            "Spanish": "venga"
+        },
+        {
+            "ID": "354",
+            "English": "black",
+            "Spanish": "negro"
+        },
+        {
+            "ID": "355",
+            "English": "road",
+            "Spanish": "camino"
+        },
+        {
+            "ID": "356",
+            "English": "background",
+            "Spanish": "fondo"
+        },
+        {
+            "ID": "357",
+            "English": "voice",
+            "Spanish": "voz"
+        },
+        {
+            "ID": "358",
+            "English": "study",
+            "Spanish": "estudio"
+        },
+        {
+            "ID": "359",
+            "English": "necessary",
+            "Spanish": "necesario"
+        },
+        {
+            "ID": "360",
+            "English": "there",
+            "Spanish": "allá"
+        },
+        {
+            "ID": "361",
+            "English": "to touch",
+            "Spanish": "tocar"
+        },
+        {
+            "ID": "362",
+            "English": "value",
+            "Spanish": "valor"
+        },
+        {
+            "ID": "363",
+            "English": "to recognize",
+            "Spanish": "reconocer"
+        },
+        {
+            "ID": "364",
+            "English": "to study",
+            "Spanish": "estudiar"
+        },
+        {
+            "ID": "365",
+            "English": "to achieve",
+            "Spanish": "alcanzar"
+        },
+        {
+            "ID": "366",
+            "English": "to be born",
+            "Spanish": "nacer"
+        },
+        {
+            "ID": "367",
+            "English": "to direct",
+            "Spanish": "dirigir"
+        },
+        {
+            "ID": "368",
+            "English": "to run",
+            "Spanish": "correr"
+        },
+        {
+            "ID": "369",
+            "English": "happy",
+            "Spanish": "feliz"
+        },
+        {
+            "ID": "370",
+            "English": "measure",
+            "Spanish": "medida"
+        },
+        {
+            "ID": "371",
+            "English": "less",
+            "Spanish": "menor"
+        },
+        {
+            "ID": "372",
+            "English": "war",
+            "Spanish": "guerra"
+        },
+        {
+            "ID": "373",
+            "English": "only",
+            "Spanish": "solamente"
+        },
+        {
+            "ID": "374",
+            "English": "wife",
+            "Spanish": "esposa"
+        },
+        {
+            "ID": "375",
+            "English": "to use",
+            "Spanish": "utilizar"
+        },
+        {
+            "ID": "376",
+            "English": "forward",
+            "Spanish": "adelante"
+        },
+        {
+            "ID": "377",
+            "English": "center",
+            "Spanish": "centro"
+        },
+        {
+            "ID": "378",
+            "English": "what",
+            "Spanish": "cuál"
+        },
+        {
+            "ID": "379",
+            "English": "need",
+            "Spanish": "necesidad"
+        },
+        {
+            "ID": "380",
+            "English": "condition",
+            "Spanish": "condición"
+        },
+        {
+            "ID": "381",
+            "English": "to pay",
+            "Spanish": "pagar"
+        },
+        {
+            "ID": "382",
+            "English": "it",
+            "Spanish": "ello"
+        },
+        {
+            "ID": "383",
+            "English": "lack",
+            "Spanish": "falta"
+        },
+        {
+            "ID": "384",
+            "English": "death",
+            "Spanish": "muerte"
+        },
+        {
+            "ID": "385",
+            "English": "ten",
+            "Spanish": "diez"
+        },
+        {
+            "ID": "386",
+            "English": "through",
+            "Spanish": "través"
+        },
+        {
+            "ID": "387",
+            "English": "old",
+            "Spanish": "antiguo"
+        },
+        {
+            "ID": "388",
+            "English": "supposed",
+            "Spanish": "supuesto"
+        },
+        {
+            "ID": "389",
+            "English": "age",
+            "Spanish": "edad"
+        },
+        {
+            "ID": "390",
+            "English": "to play",
+            "Spanish": "jugar"
+        },
+        {
+            "ID": "391",
+            "English": "heart",
+            "Spanish": "corazón"
+        },
+        {
+            "ID": "392",
+            "English": "face",
+            "Spanish": "cara"
+        },
+        {
+            "ID": "393",
+            "English": "boss, chief",
+            "Spanish": "jefe"
+        },
+        {
+            "ID": "394",
+            "English": "era, time",
+            "Spanish": "época"
+        },
+        {
+            "ID": "395",
+            "English": "color",
+            "Spanish": "color"
+        },
+        {
+            "ID": "396",
+            "English": "to listen",
+            "Spanish": "escuchar"
+        },
+        {
+            "ID": "397",
+            "English": "help",
+            "Spanish": "ayuda"
+        },
+        {
+            "ID": "398",
+            "English": "experience",
+            "Spanish": "experiencia"
+        },
+        {
+            "ID": "399",
+            "English": "movement",
+            "Spanish": "movimiento"
+        },
+        {
+            "ID": "400",
+            "English": "to fulfill",
+            "Spanish": "cumplir"
+        },
+        {
+            "ID": "401",
+            "English": "special",
+            "Spanish": "especial"
+        },
+        {
+            "ID": "402",
+            "English": "different",
+            "Spanish": "diferente"
+        },
+        {
+            "ID": "403",
+            "English": "sorrow",
+            "Spanish": "pesar"
+        },
+        {
+            "ID": "404",
+            "English": "possibility",
+            "Spanish": "posibilidad"
+        },
+        {
+            "ID": "405",
+            "English": "to offer",
+            "Spanish": "ofrecer"
+        },
+        {
+            "ID": "406",
+            "English": "up",
+            "Spanish": "arriba"
+        },
+        {
+            "ID": "407",
+            "English": "to discover",
+            "Spanish": "descubrir"
+        },
+        {
+            "ID": "408",
+            "English": "daughter",
+            "Spanish": "hija"
+        },
+        {
+            "ID": "409",
+            "English": "previous",
+            "Spanish": "anterior"
+        },
+        {
+            "ID": "410",
+            "English": "game",
+            "Spanish": "juego"
+        },
+        {
+            "ID": "411",
+            "English": "to lift (to get up)",
+            "Spanish": "levantar(se)"
+        },
+        {
+            "ID": "412",
+            "English": "poor",
+            "Spanish": "pobre"
+        },
+        {
+            "ID": "413",
+            "English": "air",
+            "Spanish": "aire"
+        },
+        {
+            "ID": "414",
+            "English": "six",
+            "Spanish": "seis"
+        },
+        {
+            "ID": "415",
+            "English": "to try",
+            "Spanish": "intentar"
+        },
+        {
+            "ID": "416",
+            "English": "together",
+            "Spanish": "junto"
+        },
+        {
+            "ID": "417",
+            "English": "result",
+            "Spanish": "resultado"
+        },
+        {
+            "ID": "418",
+            "English": "use",
+            "Spanish": "usar"
+        },
+        {
+            "ID": "419",
+            "English": "to decide",
+            "Spanish": "decidir"
+        },
+        {
+            "ID": "420",
+            "English": "to repeat",
+            "Spanish": "repetir"
+        },
+        {
+            "ID": "421",
+            "English": "to forget",
+            "Spanish": "olvidar"
+        },
+        {
+            "ID": "422",
+            "English": "law",
+            "Spanish": "ley"
+        },
+        {
+            "ID": "423",
+            "English": "appearance",
+            "Spanish": "aspecto"
+        },
+        {
+            "ID": "424",
+            "English": "foot",
+            "Spanish": "pie"
+        },
+        {
+            "ID": "425",
+            "English": "worth",
+            "Spanish": "valer"
+        },
+        {
+            "ID": "426",
+            "English": "species",
+            "Spanish": "especie"
+        },
+        {
+            "ID": "427",
+            "English": "to eat",
+            "Spanish": "comer"
+        },
+        {
+            "ID": "428",
+            "English": "service",
+            "Spanish": "servicio"
+        },
+        {
+            "ID": "429",
+            "English": "close",
+            "Spanish": "cerca"
+        },
+        {
+            "ID": "430",
+            "English": "to show",
+            "Spanish": "mostrar"
+        },
+        {
+            "ID": "431",
+            "English": "activity",
+            "Spanish": "actividad"
+        },
+        {
+            "ID": "432",
+            "English": "third",
+            "Spanish": "tercero"
+        },
+        {
+            "ID": "433",
+            "English": "uncle",
+            "Spanish": "tío"
+        },
+        {
+            "ID": "434",
+            "English": "to occupy",
+            "Spanish": "ocupar"
+        },
+        {
+            "ID": "435",
+            "English": "question",
+            "Spanish": "cuestión"
+        },
+        {
+            "ID": "436",
+            "English": "doubt",
+            "Spanish": "duda"
+        },
+        {
+            "ID": "437",
+            "English": "at least",
+            "Spanish": "siquiera"
+        },
+        {
+            "ID": "438",
+            "English": "difference",
+            "Spanish": "diferencia"
+        },
+        {
+            "ID": "439",
+            "English": "to move",
+            "Spanish": "mover"
+        },
+        {
+            "ID": "440",
+            "English": "to continue",
+            "Spanish": "continuar"
+        },
+        {
+            "ID": "441",
+            "English": "amount",
+            "Spanish": "cantidad"
+        },
+        {
+            "ID": "442",
+            "English": "action",
+            "Spanish": "acción"
+        },
+        {
+            "ID": "443",
+            "English": "to happen",
+            "Spanish": "suceder"
+        },
+        {
+            "ID": "444",
+            "English": "to set",
+            "Spanish": "fijar"
+        },
+        {
+            "ID": "445",
+            "English": "society",
+            "Spanish": "sociedad"
+        },
+        {
+            "ID": "446",
+            "English": "to refer",
+            "Spanish": "referir"
+        },
+        {
+            "ID": "447",
+            "English": "to close",
+            "Spanish": "acercar"
+        },
+        {
+            "ID": "448",
+            "English": "able",
+            "Spanish": "capaz"
+        },
+        {
+            "ID": "449",
+            "English": "free",
+            "Spanish": "libre"
+        },
+        {
+            "ID": "450",
+            "English": "natural",
+            "Spanish": "natural"
+        },
+        {
+            "ID": "451",
+            "English": "to devote",
+            "Spanish": "dedicar"
+        },
+        {
+            "ID": "452",
+            "English": "weight",
+            "Spanish": "peso"
+        },
+        {
+            "ID": "453",
+            "English": "effect",
+            "Spanish": "efecto"
+        },
+        {
+            "ID": "454",
+            "English": "object",
+            "Spanish": "objeto"
+        },
+        {
+            "ID": "455",
+            "English": "doctor",
+            "Spanish": "doctor"
+        },
+        {
+            "ID": "456",
+            "English": "TRUE",
+            "Spanish": "verdadero"
+        },
+        {
+            "ID": "457",
+            "English": "enough",
+            "Spanish": "suficiente"
+        },
+        {
+            "ID": "458",
+            "English": "young",
+            "Spanish": "joven"
+        },
+        {
+            "ID": "459",
+            "English": "party",
+            "Spanish": "partido"
+        },
+        {
+            "ID": "460",
+            "English": "economic",
+            "Spanish": "económico"
+        },
+        {
+            "ID": "461",
+            "English": "below",
+            "Spanish": "abajo"
+        },
+        {
+            "ID": "462",
+            "English": "right",
+            "Spanish": "derecho"
+        },
+        {
+            "ID": "463",
+            "English": "first",
+            "Spanish": "primer"
+        },
+        {
+            "ID": "464",
+            "English": "importance",
+            "Spanish": "importancia"
+        },
+        {
+            "ID": "465",
+            "English": "brilliant",
+            "Spanish": "genial"
+        },
+        {
+            "ID": "466",
+            "English": "system",
+            "Spanish": "sistema"
+        },
+        {
+            "ID": "467",
+            "English": "just",
+            "Spanish": "justo"
+        },
+        {
+            "ID": "468",
+            "English": "trip",
+            "Spanish": "viaje"
+        },
+        {
+            "ID": "469",
+            "English": "soil",
+            "Spanish": "suelo"
+        },
+        {
+            "ID": "470",
+            "English": "respect, in regards to",
+            "Spanish": "respecto"
+        },
+        {
+            "ID": "471",
+            "English": "knowledge",
+            "Spanish": "conocimiento"
+        },
+        {
+            "ID": "472",
+            "English": "freedom",
+            "Spanish": "libertad"
+        },
+        {
+            "ID": "473",
+            "English": "above",
+            "Spanish": "encima"
+        },
+        {
+            "ID": "474",
+            "English": "to buy",
+            "Spanish": "comprar"
+        },
+        {
+            "ID": "475",
+            "English": "common",
+            "Spanish": "común"
+        },
+        {
+            "ID": "476",
+            "English": "open",
+            "Spanish": "abierto"
+        },
+        {
+            "ID": "477",
+            "English": "next",
+            "Spanish": "próximo"
+        },
+        {
+            "ID": "478",
+            "English": "strong",
+            "Spanish": "fuerte"
+        },
+        {
+            "ID": "479",
+            "English": "attention",
+            "Spanish": "atención"
+        },
+        {
+            "ID": "480",
+            "English": "to rise",
+            "Spanish": "subir"
+        },
+        {
+            "ID": "481",
+            "English": "effort",
+            "Spanish": "esfuerzo"
+        },
+        {
+            "ID": "482",
+            "English": "to avoid",
+            "Spanish": "evitar"
+        },
+        {
+            "ID": "483",
+            "English": "rest",
+            "Spanish": "resto"
+        },
+        {
+            "ID": "484",
+            "English": "is interesting to (to interest)",
+            "Spanish": "interesar"
+        },
+        {
+            "ID": "485",
+            "English": "back",
+            "Spanish": "atrás"
+        },
+        {
+            "ID": "486",
+            "English": "area",
+            "Spanish": "zona"
+        },
+        {
+            "ID": "487",
+            "English": "process",
+            "Spanish": "proceso"
+        },
+        {
+            "ID": "488",
+            "English": "alive",
+            "Spanish": "vivo"
+        },
+        {
+            "ID": "489",
+            "English": "to close",
+            "Spanish": "cerrar"
+        },
+        {
+            "ID": "490",
+            "English": "wine",
+            "Spanish": "vino"
+        },
+        {
+            "ID": "491",
+            "English": "to throw, cast",
+            "Spanish": "echar"
+        },
+        {
+            "ID": "492",
+            "English": "to reply",
+            "Spanish": "responder"
+        },
+        {
+            "ID": "493",
+            "English": "to suffer",
+            "Spanish": "sufrir"
+        },
+        {
+            "ID": "494",
+            "English": "complete",
+            "Spanish": "completo"
+        },
+        {
+            "ID": "495",
+            "English": "minute",
+            "Spanish": "minuto"
+        },
+        {
+            "ID": "496",
+            "English": "school",
+            "Spanish": "escuela"
+        },
+        {
+            "ID": "497",
+            "English": "contrary",
+            "Spanish": "contrario"
+        },
+        {
+            "ID": "498",
+            "English": "table",
+            "Spanish": "mesa"
+        },
+        {
+            "ID": "499",
+            "English": "real",
+            "Spanish": "real"
+        },
+        {
+            "ID": "500",
+            "English": "occasion",
+            "Spanish": "ocasión"
+        },
+        {
+            "ID": "501",
+            "English": "blood",
+            "Spanish": "sangre"
+        },
+        {
+            "ID": "502",
+            "English": "is important to (to matter)",
+            "Spanish": "importar"
+        },
+        {
+            "ID": "503",
+            "English": "public",
+            "Spanish": "público"
+        },
+        {
+            "ID": "504",
+            "English": "car",
+            "Spanish": "coche"
+        },
+        {
+            "ID": "505",
+            "English": "to obtain",
+            "Spanish": "obtener"
+        },
+        {
+            "ID": "506",
+            "English": "program",
+            "Spanish": "programa"
+        },
+        {
+            "ID": "507",
+            "English": "away",
+            "Spanish": "lejos"
+        },
+        {
+            "ID": "508",
+            "English": "seven",
+            "Spanish": "siete"
+        },
+        {
+            "ID": "509",
+            "English": "huge",
+            "Spanish": "enorme"
+        },
+        {
+            "ID": "510",
+            "English": "response",
+            "Spanish": "respuesta"
+        },
+        {
+            "ID": "511",
+            "English": "line",
+            "Spanish": "línea"
+        },
+        {
+            "ID": "512",
+            "English": "space",
+            "Spanish": "espacio"
+        },
+        {
+            "ID": "513",
+            "English": "level",
+            "Spanish": "nivel"
+        },
+        {
+            "ID": "514",
+            "English": "peace",
+            "Spanish": "paz"
+        },
+        {
+            "ID": "515",
+            "English": "government",
+            "Spanish": "gobierno"
+        },
+        {
+            "ID": "516",
+            "English": "end, cape",
+            "Spanish": "cabo"
+        },
+        {
+            "ID": "517",
+            "English": "return",
+            "Spanish": "vuelta"
+        },
+        {
+            "ID": "518",
+            "English": "to observe",
+            "Spanish": "observar"
+        },
+        {
+            "ID": "519",
+            "English": "to indicate",
+            "Spanish": "indicar"
+        },
+        {
+            "ID": "520",
+            "English": "question",
+            "Spanish": "pregunta"
+        },
+        {
+            "ID": "521",
+            "English": "image",
+            "Spanish": "imagen"
+        },
+        {
+            "ID": "522",
+            "English": "career",
+            "Spanish": "carrera"
+        },
+        {
+            "ID": "523",
+            "English": "fault",
+            "Spanish": "culpa"
+        },
+        {
+            "ID": "524",
+            "English": "to imagine",
+            "Spanish": "imaginar"
+        },
+        {
+            "ID": "525",
+            "English": "to be in the habit of",
+            "Spanish": "soler"
+        },
+        {
+            "ID": "526",
+            "English": "both",
+            "Spanish": "ambos"
+        },
+        {
+            "ID": "527",
+            "English": "to accompany",
+            "Spanish": "acompañar"
+        },
+        {
+            "ID": "528",
+            "English": "deep",
+            "Spanish": "profundo"
+        },
+        {
+            "ID": "529",
+            "English": "to stop",
+            "Spanish": "detener"
+        },
+        {
+            "ID": "530",
+            "English": "to develop",
+            "Spanish": "desarrollar"
+        },
+        {
+            "ID": "531",
+            "English": "eight",
+            "Spanish": "ocho"
+        },
+        {
+            "ID": "532",
+            "English": "easy",
+            "Spanish": "fácil"
+        },
+        {
+            "ID": "533",
+            "English": "to signal",
+            "Spanish": "señalar"
+        },
+        {
+            "ID": "534",
+            "English": "to choose",
+            "Spanish": "elegir"
+        },
+        {
+            "ID": "535",
+            "English": "figure",
+            "Spanish": "figura"
+        },
+        {
+            "ID": "536",
+            "English": "main",
+            "Spanish": "principal"
+        },
+        {
+            "ID": "537",
+            "English": "to sleep",
+            "Spanish": "dormir"
+        },
+        {
+            "ID": "538",
+            "English": "animal",
+            "Spanish": "animal"
+        },
+        {
+            "ID": "539",
+            "English": "base",
+            "Spanish": "base"
+        },
+        {
+            "ID": "540",
+            "English": "to prepare",
+            "Spanish": "preparar"
+        },
+        {
+            "ID": "541",
+            "English": "to propose",
+            "Spanish": "proponer"
+        },
+        {
+            "ID": "542",
+            "English": "to show",
+            "Spanish": "demostrar"
+        },
+        {
+            "ID": "543",
+            "English": "party",
+            "Spanish": "fiesta"
+        },
+        {
+            "ID": "544",
+            "English": "to mean",
+            "Spanish": "significar"
+        },
+        {
+            "ID": "545",
+            "English": "position",
+            "Spanish": "posición"
+        },
+        {
+            "ID": "546",
+            "English": "bed",
+            "Spanish": "cama"
+        },
+        {
+            "ID": "547",
+            "English": "motive",
+            "Spanish": "motivo"
+        },
+        {
+            "ID": "548",
+            "English": "test",
+            "Spanish": "prueba"
+        },
+        {
+            "ID": "549",
+            "English": "policy",
+            "Spanish": "politica"
+        },
+        {
+            "ID": "550",
+            "English": "national",
+            "Spanish": "nacional"
+        },
+        {
+            "ID": "551",
+            "English": "full",
+            "Spanish": "lleno"
+        },
+        {
+            "ID": "552",
+            "English": "phone",
+            "Spanish": "teléfono"
+        },
+        {
+            "ID": "553",
+            "English": "to gather",
+            "Spanish": "reunir"
+        },
+        {
+            "ID": "554",
+            "English": "Is missing to (to lack)",
+            "Spanish": "faltar"
+        },
+        {
+            "ID": "555",
+            "English": "team",
+            "Spanish": "equipo"
+        },
+        {
+            "ID": "556",
+            "English": "datum",
+            "Spanish": "dato"
+        },
+        {
+            "ID": "557",
+            "English": "to wish",
+            "Spanish": "desear"
+        },
+        {
+            "ID": "558",
+            "English": "company",
+            "Spanish": "empresa"
+        },
+        {
+            "ID": "559",
+            "English": "issue",
+            "Spanish": "asunto"
+        },
+        {
+            "ID": "560",
+            "English": "presence",
+            "Spanish": "presencia"
+        },
+        {
+            "ID": "561",
+            "English": "yours",
+            "Spanish": "suyo"
+        },
+        {
+            "ID": "562",
+            "English": "culture",
+            "Spanish": "cultura"
+        },
+        {
+            "ID": "563",
+            "English": "series",
+            "Spanish": "serie"
+        },
+        {
+            "ID": "564",
+            "English": "million",
+            "Spanish": "millón"
+        },
+        {
+            "ID": "565",
+            "English": "to teach",
+            "Spanish": "enseñar"
+        },
+        {
+            "ID": "566",
+            "English": "to build",
+            "Spanish": "construir"
+        },
+        {
+            "ID": "567",
+            "English": "opportunity",
+            "Spanish": "oportunidad"
+        },
+        {
+            "ID": "568",
+            "English": "to sell",
+            "Spanish": "vender"
+        },
+        {
+            "ID": "569",
+            "English": "to kill",
+            "Spanish": "matar"
+        },
+        {
+            "ID": "570",
+            "English": "to represent",
+            "Spanish": "representar"
+        },
+        {
+            "ID": "571",
+            "English": "to disappear",
+            "Spanish": "desaparecer"
+        },
+        {
+            "ID": "572",
+            "English": "to send",
+            "Spanish": "mandar"
+        },
+        {
+            "ID": "573",
+            "English": "character",
+            "Spanish": "carácter"
+        },
+        {
+            "ID": "574",
+            "English": "where",
+            "Spanish": "adónde"
+        },
+        {
+            "ID": "575",
+            "English": "most",
+            "Spanish": "mayoría"
+        },
+        {
+            "ID": "576",
+            "English": "red",
+            "Spanish": "rojo"
+        },
+        {
+            "ID": "577",
+            "English": "after",
+            "Spanish": "tras"
+        },
+        {
+            "ID": "578",
+            "English": "top",
+            "Spanish": "superior"
+        },
+        {
+            "ID": "579",
+            "English": "to walk",
+            "Spanish": "andar"
+        },
+        {
+            "ID": "580",
+            "English": "short",
+            "Spanish": "corto"
+        },
+        {
+            "ID": "581",
+            "English": "author",
+            "Spanish": "autor"
+        },
+        {
+            "ID": "582",
+            "English": "fourth",
+            "Spanish": "cuarto"
+        },
+        {
+            "ID": "583",
+            "English": "sky",
+            "Spanish": "cielo"
+        },
+        {
+            "ID": "584",
+            "English": "known",
+            "Spanish": "conocido"
+        },
+        {
+            "ID": "585",
+            "English": "to prefer",
+            "Spanish": "preferir"
+        },
+        {
+            "ID": "586",
+            "English": "memory",
+            "Spanish": "recuerdo"
+        },
+        {
+            "ID": "587",
+            "English": "to ensure",
+            "Spanish": "asegurar"
+        },
+        {
+            "ID": "588",
+            "English": "forgiveness",
+            "Spanish": "perdón"
+        },
+        {
+            "ID": "589",
+            "English": "function",
+            "Spanish": "función"
+        },
+        {
+            "ID": "590",
+            "English": "cause",
+            "Spanish": "causa"
+        },
+        {
+            "ID": "591",
+            "English": "serious",
+            "Spanish": "grave"
+        },
+        {
+            "ID": "592",
+            "English": "decision",
+            "Spanish": "decisión"
+        },
+        {
+            "ID": "593",
+            "English": "music",
+            "Spanish": "música"
+        },
+        {
+            "ID": "594",
+            "English": "strange",
+            "Spanish": "extraño"
+        },
+        {
+            "ID": "595",
+            "English": "to grow",
+            "Spanish": "crecer"
+        },
+        {
+            "ID": "596",
+            "English": "to emerge",
+            "Spanish": "surgir"
+        },
+        {
+            "ID": "597",
+            "English": "movie",
+            "Spanish": "película"
+        },
+        {
+            "ID": "598",
+            "English": "expression",
+            "Spanish": "expresión"
+        },
+        {
+            "ID": "599",
+            "English": "husband",
+            "Spanish": "marido"
+        },
+        {
+            "ID": "600",
+            "English": "around",
+            "Spanish": "alrededor"
+        },
+        {
+            "ID": "601",
+            "English": "dog",
+            "Spanish": "perro"
+        },
+        {
+            "ID": "602",
+            "English": "to deliver",
+            "Spanish": "entregar"
+        },
+        {
+            "ID": "603",
+            "English": "river",
+            "Spanish": "río"
+        },
+        {
+            "ID": "604",
+            "English": "exactly",
+            "Spanish": "exactamente"
+        },
+        {
+            "ID": "605",
+            "English": "security",
+            "Spanish": "seguridad"
+        },
+        {
+            "ID": "606",
+            "English": "king",
+            "Spanish": "rey"
+        },
+        {
+            "ID": "607",
+            "English": "term",
+            "Spanish": "término"
+        },
+        {
+            "ID": "608",
+            "English": "to place",
+            "Spanish": "colocar"
+        },
+        {
+            "ID": "609",
+            "English": "metro",
+            "Spanish": "metro"
+        },
+        {
+            "ID": "610",
+            "English": "doctor",
+            "Spanish": "médico"
+        },
+        {
+            "ID": "611",
+            "English": "room",
+            "Spanish": "habitación"
+        },
+        {
+            "ID": "612",
+            "English": "to establish",
+            "Spanish": "establecer"
+        },
+        {
+            "ID": "613",
+            "English": "to save",
+            "Spanish": "guardar"
+        },
+        {
+            "ID": "614",
+            "English": "art",
+            "Spanish": "arte"
+        },
+        {
+            "ID": "615",
+            "English": "pair",
+            "Spanish": "par"
+        },
+        {
+            "ID": "616",
+            "English": "to start",
+            "Spanish": "iniciar"
+        },
+        {
+            "ID": "617",
+            "English": "fire",
+            "Spanish": "fuego"
+        },
+        {
+            "ID": "618",
+            "English": "to lower",
+            "Spanish": "bajar"
+        },
+        {
+            "ID": "619",
+            "English": "consequence",
+            "Spanish": "consecuencia"
+        },
+        {
+            "ID": "620",
+            "English": "to note",
+            "Spanish": "notar"
+        },
+        {
+            "ID": "621",
+            "English": "act",
+            "Spanish": "acto"
+        },
+        {
+            "ID": "622",
+            "English": "to put",
+            "Spanish": "meter"
+        },
+        {
+            "ID": "623",
+            "English": "absolute",
+            "Spanish": "absoluto"
+        },
+        {
+            "ID": "624",
+            "English": "penalty",
+            "Spanish": "pena"
+        },
+        {
+            "ID": "625",
+            "English": "to act",
+            "Spanish": "actuar"
+        },
+        {
+            "ID": "626",
+            "English": "height",
+            "Spanish": "altura"
+        },
+        {
+            "ID": "627",
+            "English": "desire",
+            "Spanish": "deseo"
+        },
+        {
+            "ID": "628",
+            "English": "out, outside",
+            "Spanish": "afuera"
+        },
+        {
+            "ID": "629",
+            "English": "precisely",
+            "Spanish": "precisamente"
+        },
+        {
+            "ID": "630",
+            "English": "twenty",
+            "Spanish": "veinte"
+        },
+        {
+            "ID": "631",
+            "English": "dream",
+            "Spanish": "sueño"
+        },
+        {
+            "ID": "632",
+            "English": "claim",
+            "Spanish": "pretender"
+        },
+        {
+            "ID": "633",
+            "English": "task",
+            "Spanish": "tarea"
+        },
+        {
+            "ID": "634",
+            "English": "coffee",
+            "Spanish": "café"
+        },
+        {
+            "ID": "635",
+            "English": "letter",
+            "Spanish": "carta"
+        },
+        {
+            "ID": "636",
+            "English": "barely, just",
+            "Spanish": "apenas"
+        },
+        {
+            "ID": "637",
+            "English": "property",
+            "Spanish": "propiedad"
+        },
+        {
+            "ID": "638",
+            "English": "product",
+            "Spanish": "producto"
+        },
+        {
+            "ID": "639",
+            "English": "personal",
+            "Spanish": "personal"
+        },
+        {
+            "ID": "640",
+            "English": "simply",
+            "Spanish": "simplemente"
+        },
+        {
+            "ID": "641",
+            "English": "impossible",
+            "Spanish": "imposible"
+        },
+        {
+            "ID": "642",
+            "English": "taste",
+            "Spanish": "gusto"
+        },
+        {
+            "ID": "643",
+            "English": "to agree (remember)",
+            "Spanish": "acordar(se)"
+        },
+        {
+            "ID": "644",
+            "English": "site",
+            "Spanish": "sitio"
+        },
+        {
+            "ID": "645",
+            "English": "language",
+            "Spanish": "lengua"
+        },
+        {
+            "ID": "646",
+            "English": "to cut",
+            "Spanish": "cortar"
+        },
+        {
+            "ID": "647",
+            "English": "plan",
+            "Spanish": "plan"
+        },
+        {
+            "ID": "648",
+            "English": "baby",
+            "Spanish": "bebé"
+        },
+        {
+            "ID": "649",
+            "English": "to correspond",
+            "Spanish": "corresponder"
+        },
+        {
+            "ID": "650",
+            "English": "to break",
+            "Spanish": "romper"
+        },
+        {
+            "ID": "651",
+            "English": "never",
+            "Spanish": "jamás"
+        },
+        {
+            "ID": "652",
+            "English": "to acquire",
+            "Spanish": "adquirir"
+        },
+        {
+            "ID": "653",
+            "English": "weapon",
+            "Spanish": "arma"
+        },
+        {
+            "ID": "654",
+            "English": "project",
+            "Spanish": "proyecto"
+        },
+        {
+            "ID": "655",
+            "English": "memory",
+            "Spanish": "memoria"
+        },
+        {
+            "ID": "656",
+            "English": "origin",
+            "Spanish": "origen"
+        },
+        {
+            "ID": "657",
+            "English": "element",
+            "Spanish": "elemento"
+        },
+        {
+            "ID": "658",
+            "English": "lost",
+            "Spanish": "perdido"
+        },
+        {
+            "ID": "659",
+            "English": "English",
+            "Spanish": "inglés"
+        },
+        {
+            "ID": "660",
+            "English": "market",
+            "Spanish": "mercado"
+        },
+        {
+            "ID": "661",
+            "English": "course",
+            "Spanish": "curso"
+        },
+        {
+            "ID": "662",
+            "English": "to launch",
+            "Spanish": "lanzar"
+        },
+        {
+            "ID": "663",
+            "English": "given",
+            "Spanish": "dado"
+        },
+        {
+            "ID": "664",
+            "English": "to take advantage of",
+            "Spanish": "aprovechar"
+        },
+        {
+            "ID": "665",
+            "English": "interior",
+            "Spanish": "interior"
+        },
+        {
+            "ID": "666",
+            "English": "hard",
+            "Spanish": "duro"
+        },
+        {
+            "ID": "667",
+            "English": "to support",
+            "Spanish": "apoyar"
+        },
+        {
+            "ID": "668",
+            "English": "worse",
+            "Spanish": "peor"
+        },
+        {
+            "ID": "669",
+            "English": "deny",
+            "Spanish": "negar"
+        },
+        {
+            "ID": "670",
+            "English": "advance",
+            "Spanish": "avanzar"
+        },
+        {
+            "ID": "671",
+            "English": "use",
+            "Spanish": "uso"
+        },
+        {
+            "ID": "672",
+            "English": "arm",
+            "Spanish": "brazo"
+        },
+        {
+            "ID": "673",
+            "English": "teacher",
+            "Spanish": "profesor"
+        },
+        {
+            "ID": "674",
+            "English": "resolve",
+            "Spanish": "resolver"
+        },
+        {
+            "ID": "675",
+            "English": "future",
+            "Spanish": "futuro"
+        },
+        {
+            "ID": "676",
+            "English": "half",
+            "Spanish": "mitad"
+        },
+        {
+            "ID": "677",
+            "English": "clothing",
+            "Spanish": "ropa"
+        },
+        {
+            "ID": "678",
+            "English": "is costly to (to cost)",
+            "Spanish": "costar"
+        },
+        {
+            "ID": "679",
+            "English": "rich",
+            "Spanish": "rico"
+        },
+        {
+            "ID": "680",
+            "English": "total",
+            "Spanish": "total"
+        },
+        {
+            "ID": "681",
+            "English": "to require",
+            "Spanish": "exigir"
+        },
+        {
+            "ID": "682",
+            "English": "opinion",
+            "Spanish": "opinión"
+        },
+        {
+            "ID": "683",
+            "English": "to increase",
+            "Spanish": "aumentar"
+        },
+        {
+            "ID": "684",
+            "English": "to collect",
+            "Spanish": "recoger"
+        },
+        {
+            "ID": "685",
+            "English": "mouth",
+            "Spanish": "boca"
+        },
+        {
+            "ID": "686",
+            "English": "address",
+            "Spanish": "dirección"
+        },
+        {
+            "ID": "687",
+            "English": "pure",
+            "Spanish": "puro"
+        },
+        {
+            "ID": "688",
+            "English": "president",
+            "Spanish": "presidente"
+        },
+        {
+            "ID": "689",
+            "English": "to abandon",
+            "Spanish": "abandonar"
+        },
+        {
+            "ID": "690",
+            "English": "piece",
+            "Spanish": "pieza"
+        },
+        {
+            "ID": "691",
+            "English": "last night",
+            "Spanish": "anoche"
+        },
+        {
+            "ID": "692",
+            "English": "professional",
+            "Spanish": "profesional"
+        },
+        {
+            "ID": "693",
+            "English": "to impose",
+            "Spanish": "imponer"
+        },
+        {
+            "ID": "694",
+            "English": "about",
+            "Spanish": "acerca"
+        },
+        {
+            "ID": "695",
+            "English": "to force",
+            "Spanish": "obligar"
+        },
+        {
+            "ID": "696",
+            "English": "physical",
+            "Spanish": "físico"
+        },
+        {
+            "ID": "697",
+            "English": "attitude",
+            "Spanish": "actitud"
+        },
+        {
+            "ID": "698",
+            "English": "sea",
+            "Spanish": "mar"
+        },
+        {
+            "ID": "699",
+            "English": "entry",
+            "Spanish": "entrada"
+        },
+        {
+            "ID": "700",
+            "English": "contact",
+            "Spanish": "contacto"
+        },
+        {
+            "ID": "701",
+            "English": "to apply",
+            "Spanish": "aplicar"
+        },
+        {
+            "ID": "702",
+            "English": "correct",
+            "Spanish": "correcto"
+        },
+        {
+            "ID": "703",
+            "English": "capital",
+            "Spanish": "capital"
+        },
+        {
+            "ID": "704",
+            "English": "title",
+            "Spanish": "título"
+        },
+        {
+            "ID": "705",
+            "English": "back",
+            "Spanish": "detrás"
+        },
+        {
+            "ID": "706",
+            "English": "post",
+            "Spanish": "puesto"
+        },
+        {
+            "ID": "707",
+            "English": "material",
+            "Spanish": "material"
+        },
+        {
+            "ID": "708",
+            "English": "blow",
+            "Spanish": "golpe"
+        },
+        {
+            "ID": "709",
+            "English": "to dispose",
+            "Spanish": "disponer"
+        },
+        {
+            "ID": "710",
+            "English": "communication",
+            "Spanish": "comunicación"
+        },
+        {
+            "ID": "711",
+            "English": "to express",
+            "Spanish": "expresar"
+        },
+        {
+            "ID": "712",
+            "English": "sorry",
+            "Spanish": "disculpe"
+        },
+        {
+            "ID": "713",
+            "English": "simple",
+            "Spanish": "simple"
+        },
+        {
+            "ID": "714",
+            "English": "completely",
+            "Spanish": "totalmente"
+        },
+        {
+            "ID": "715",
+            "English": "to provoke",
+            "Spanish": "provocar"
+        },
+        {
+            "ID": "716",
+            "English": "normal",
+            "Spanish": "normal"
+        },
+        {
+            "ID": "717",
+            "English": "to defend",
+            "Spanish": "defender"
+        },
+        {
+            "ID": "718",
+            "English": "disease",
+            "Spanish": "enfermedad"
+        },
+        {
+            "ID": "719",
+            "English": "matter",
+            "Spanish": "materia"
+        },
+        {
+            "ID": "720",
+            "English": "remove",
+            "Spanish": "quitar"
+        },
+        {
+            "ID": "721",
+            "English": "to conserve",
+            "Spanish": "conservar"
+        },
+        {
+            "ID": "722",
+            "English": "modern",
+            "Spanish": "moderno"
+        },
+        {
+            "ID": "723",
+            "English": "hospital",
+            "Spanish": "hospital"
+        },
+        {
+            "ID": "724",
+            "English": "to depend",
+            "Spanish": "depender"
+        },
+        {
+            "ID": "725",
+            "English": "nature",
+            "Spanish": "naturaleza"
+        },
+        {
+            "ID": "726",
+            "English": "capacity",
+            "Spanish": "capacidad"
+        },
+        {
+            "ID": "727",
+            "English": "current",
+            "Spanish": "actual"
+        },
+        {
+            "ID": "728",
+            "English": "mark",
+            "Spanish": "marcar"
+        },
+        {
+            "ID": "729",
+            "English": "distance",
+            "Spanish": "distancia"
+        },
+        {
+            "ID": "730",
+            "English": "full",
+            "Spanish": "pleno"
+        },
+        {
+            "ID": "731",
+            "English": "perfect",
+            "Spanish": "perfecto"
+        },
+        {
+            "ID": "732",
+            "English": "closed",
+            "Spanish": "cerrado"
+        },
+        {
+            "ID": "733",
+            "English": "to share",
+            "Spanish": "compartir"
+        },
+        {
+            "ID": "734",
+            "English": "quiet",
+            "Spanish": "tranquilo"
+        },
+        {
+            "ID": "735",
+            "English": "information",
+            "Spanish": "información"
+        },
+        {
+            "ID": "736",
+            "English": "environment",
+            "Spanish": "ambiente"
+        },
+        {
+            "ID": "737",
+            "English": "especially",
+            "Spanish": "especialmente"
+        },
+        {
+            "ID": "738",
+            "English": "development",
+            "Spanish": "desarrollo"
+        },
+        {
+            "ID": "739",
+            "English": "sun",
+            "Spanish": "sol"
+        },
+        {
+            "ID": "740",
+            "English": "to consist",
+            "Spanish": "consistir"
+        },
+        {
+            "ID": "741",
+            "English": "probably",
+            "Spanish": "probablemente"
+        },
+        {
+            "ID": "742",
+            "English": "to constitute",
+            "Spanish": "constituir"
+        },
+        {
+            "ID": "743",
+            "English": "yesterday",
+            "Spanish": "ayer"
+        },
+        {
+            "ID": "744",
+            "English": "ready",
+            "Spanish": "dispuesto"
+        },
+        {
+            "ID": "745",
+            "English": "to cover",
+            "Spanish": "cubrir"
+        },
+        {
+            "ID": "746",
+            "English": "to function",
+            "Spanish": "funcionar"
+        },
+        {
+            "ID": "747",
+            "English": "ringer",
+            "Spanish": "campañero"
+        },
+        {
+            "ID": "748",
+            "English": "nice",
+            "Spanish": "bonito"
+        },
+        {
+            "ID": "749",
+            "English": "output",
+            "Spanish": "salida"
+        },
+        {
+            "ID": "750",
+            "English": "to fit",
+            "Spanish": "caber"
+        },
+        {
+            "ID": "751",
+            "English": "awareness",
+            "Spanish": "conciencia"
+        },
+        {
+            "ID": "752",
+            "English": "to meet",
+            "Spanish": "atender"
+        },
+        {
+            "ID": "753",
+            "English": "sick",
+            "Spanish": "enfermo"
+        },
+        {
+            "ID": "754",
+            "English": "incredible",
+            "Spanish": "increíble"
+        },
+        {
+            "ID": "755",
+            "English": "to insist",
+            "Spanish": "insistir"
+        },
+        {
+            "ID": "756",
+            "English": "custom",
+            "Spanish": "costumbre"
+        },
+        {
+            "ID": "757",
+            "English": "silly",
+            "Spanish": "tonto"
+        },
+        {
+            "ID": "758",
+            "English": "news",
+            "Spanish": "noticia"
+        },
+        {
+            "ID": "759",
+            "English": "circumstance",
+            "Spanish": "circunstancia"
+        },
+        {
+            "ID": "760",
+            "English": "is painful to (to hurt)",
+            "Spanish": "doler"
+        },
+        {
+            "ID": "761",
+            "English": "private",
+            "Spanish": "privado"
+        },
+        {
+            "ID": "762",
+            "English": "style",
+            "Spanish": "estilo"
+        },
+        {
+            "ID": "763",
+            "English": "price",
+            "Spanish": "precio"
+        },
+        {
+            "ID": "764",
+            "English": "popular",
+            "Spanish": "popular"
+        },
+        {
+            "ID": "765",
+            "English": "to sit",
+            "Spanish": "sentar"
+        },
+        {
+            "ID": "766",
+            "English": "plant",
+            "Spanish": "planta"
+        },
+        {
+            "ID": "767",
+            "English": "that",
+            "Spanish": "ése"
+        },
+        {
+            "ID": "768",
+            "English": "character",
+            "Spanish": "personaje"
+        },
+        {
+            "ID": "769",
+            "English": "famous",
+            "Spanish": "famoso"
+        },
+        {
+            "ID": "770",
+            "English": "hunger",
+            "Spanish": "hambre"
+        },
+        {
+            "ID": "771",
+            "English": "success",
+            "Spanish": "éxito"
+        },
+        {
+            "ID": "772",
+            "English": "to merit",
+            "Spanish": "merecer"
+        },
+        {
+            "ID": "773",
+            "English": "building",
+            "Spanish": "edificio"
+        },
+        {
+            "ID": "774",
+            "English": "authority",
+            "Spanish": "autoridad"
+        },
+        {
+            "ID": "775",
+            "English": "stone",
+            "Spanish": "piedra"
+        },
+        {
+            "ID": "776",
+            "English": "to include",
+            "Spanish": "incluir"
+        },
+        {
+            "ID": "777",
+            "English": "boat",
+            "Spanish": "barco"
+        },
+        {
+            "ID": "778",
+            "English": "set",
+            "Spanish": "conjunto"
+        },
+        {
+            "ID": "779",
+            "English": "hotel",
+            "Spanish": "hotel"
+        },
+        {
+            "ID": "780",
+            "English": "thirty",
+            "Spanish": "treinta"
+        },
+        {
+            "ID": "781",
+            "English": "immediate",
+            "Spanish": "inmediato"
+        },
+        {
+            "ID": "782",
+            "English": "to cross",
+            "Spanish": "cruzar"
+        },
+        {
+            "ID": "783",
+            "English": "yours",
+            "Spanish": "tuyo"
+        },
+        {
+            "ID": "784",
+            "English": "to tend",
+            "Spanish": "tender"
+        },
+        {
+            "ID": "785",
+            "English": "finally",
+            "Spanish": "finalmente"
+        },
+        {
+            "ID": "786",
+            "English": "to advertise",
+            "Spanish": "anunciar"
+        },
+        {
+            "ID": "787",
+            "English": "bath",
+            "Spanish": "baño"
+        },
+        {
+            "ID": "788",
+            "English": "spirit",
+            "Spanish": "espíritu"
+        },
+        {
+            "ID": "789",
+            "English": "member",
+            "Spanish": "miembro"
+        },
+        {
+            "ID": "790",
+            "English": "direct",
+            "Spanish": "directo"
+        },
+        {
+            "ID": "791",
+            "English": "pleasure",
+            "Spanish": "placer"
+        },
+        {
+            "ID": "792",
+            "English": "to wake",
+            "Spanish": "despertar"
+        },
+        {
+            "ID": "793",
+            "English": "resource",
+            "Spanish": "recurso"
+        },
+        {
+            "ID": "794",
+            "English": "wall",
+            "Spanish": "pared"
+        },
+        {
+            "ID": "795",
+            "English": "error",
+            "Spanish": "error"
+        },
+        {
+            "ID": "796",
+            "English": "accurate",
+            "Spanish": "preciso"
+        },
+        {
+            "ID": "797",
+            "English": "miscellaneous",
+            "Spanish": "diverso"
+        },
+        {
+            "ID": "798",
+            "English": "difficulty",
+            "Spanish": "dificultad"
+        },
+        {
+            "ID": "799",
+            "English": "to comment",
+            "Spanish": "comentar"
+        },
+        {
+            "ID": "800",
+            "English": "to publish",
+            "Spanish": "publicar"
+        },
+        {
+            "ID": "801",
+            "English": "family, familiar",
+            "Spanish": "familiar"
+        },
+        {
+            "ID": "802",
+            "English": "will",
+            "Spanish": "voluntad"
+        },
+        {
+            "ID": "803",
+            "English": "meeting",
+            "Spanish": "reunión"
+        },
+        {
+            "ID": "804",
+            "English": "model",
+            "Spanish": "modelo"
+        },
+        {
+            "ID": "805",
+            "English": "secret",
+            "Spanish": "secreto"
+        },
+        {
+            "ID": "806",
+            "English": "to load",
+            "Spanish": "cargar"
+        },
+        {
+            "ID": "807",
+            "English": "date",
+            "Spanish": "fecha"
+        },
+        {
+            "ID": "808",
+            "English": "to participate",
+            "Spanish": "participar"
+        },
+        {
+            "ID": "809",
+            "English": "train",
+            "Spanish": "tren"
+        },
+        {
+            "ID": "810",
+            "English": "to prevent",
+            "Spanish": "impedir"
+        },
+        {
+            "ID": "811",
+            "English": "purpose",
+            "Spanish": "propósito"
+        },
+        {
+            "ID": "812",
+            "English": "to save",
+            "Spanish": "salvar"
+        },
+        {
+            "ID": "813",
+            "English": "hurry",
+            "Spanish": "prisa"
+        },
+        {
+            "ID": "814",
+            "English": "degree",
+            "Spanish": "grado"
+        },
+        {
+            "ID": "815",
+            "English": "to escape",
+            "Spanish": "escapar"
+        },
+        {
+            "ID": "816",
+            "English": "deal",
+            "Spanish": "negocio"
+        },
+        {
+            "ID": "817",
+            "English": "fight",
+            "Spanish": "lucha"
+        },
+        {
+            "ID": "818",
+            "English": "to throw",
+            "Spanish": "tirar"
+        },
+        {
+            "ID": "819",
+            "English": "whole",
+            "Spanish": "entero"
+        },
+        {
+            "ID": "820",
+            "English": "interesting",
+            "Spanish": "interesante"
+        },
+        {
+            "ID": "821",
+            "English": "wide",
+            "Spanish": "amplio"
+        },
+        {
+            "ID": "822",
+            "English": "silence",
+            "Spanish": "silencio"
+        },
+        {
+            "ID": "823",
+            "English": "to answer",
+            "Spanish": "contestar"
+        },
+        {
+            "ID": "824",
+            "English": "newspaper",
+            "Spanish": "periódico"
+        },
+        {
+            "ID": "825",
+            "English": "is worrying to (to worry)",
+            "Spanish": "preocupar"
+        },
+        {
+            "ID": "826",
+            "English": "teacher",
+            "Spanish": "maestro"
+        },
+        {
+            "ID": "827",
+            "English": "provide",
+            "Spanish": "prestar"
+        },
+        {
+            "ID": "828",
+            "English": "quality",
+            "Spanish": "calidad"
+        },
+        {
+            "ID": "829",
+            "English": "salt",
+            "Spanish": "sal"
+        },
+        {
+            "ID": "830",
+            "English": "to exhibit",
+            "Spanish": "exponer"
+        },
+        {
+            "ID": "831",
+            "English": "control",
+            "Spanish": "control"
+        },
+        {
+            "ID": "832",
+            "English": "civil",
+            "Spanish": "civil"
+        },
+        {
+            "ID": "833",
+            "English": "rare",
+            "Spanish": "raro"
+        },
+        {
+            "ID": "834",
+            "English": "science",
+            "Spanish": "ciencia"
+        },
+        {
+            "ID": "835",
+            "English": "size",
+            "Spanish": "tamaño"
+        },
+        {
+            "ID": "836",
+            "English": "table",
+            "Spanish": "cuadro"
+        },
+        {
+            "ID": "837",
+            "English": "horse",
+            "Spanish": "caballo"
+        },
+        {
+            "ID": "838",
+            "English": "responsibility",
+            "Spanish": "responsabilidad"
+        },
+        {
+            "ID": "839",
+            "English": "fifty",
+            "Spanish": "cincuenta"
+        },
+        {
+            "ID": "840",
+            "English": "internal",
+            "Spanish": "interno"
+        },
+        {
+            "ID": "841",
+            "English": "detail",
+            "Spanish": "detalle"
+        },
+        {
+            "ID": "842",
+            "English": "march",
+            "Spanish": "marcha"
+        },
+        {
+            "ID": "843",
+            "English": "nine",
+            "Spanish": "nueve"
+        },
+        {
+            "ID": "844",
+            "English": "meat",
+            "Spanish": "carne"
+        },
+        {
+            "ID": "845",
+            "English": "plane",
+            "Spanish": "avión"
+        },
+        {
+            "ID": "846",
+            "English": "hair",
+            "Spanish": "pelo"
+        },
+        {
+            "ID": "847",
+            "English": "thought",
+            "Spanish": "pensamiento"
+        },
+        {
+            "ID": "848",
+            "English": "to travel",
+            "Spanish": "viajar"
+        },
+        {
+            "ID": "849",
+            "English": "charge",
+            "Spanish": "cargo"
+        },
+        {
+            "ID": "850",
+            "English": "to separate",
+            "Spanish": "separar"
+        },
+        {
+            "ID": "851",
+            "English": "construction",
+            "Spanish": "construcción"
+        },
+        {
+            "ID": "852",
+            "English": "trial",
+            "Spanish": "juicio"
+        },
+        {
+            "ID": "853",
+            "English": "ground",
+            "Spanish": "terreno"
+        },
+        {
+            "ID": "854",
+            "English": "floor",
+            "Spanish": "piso"
+        },
+        {
+            "ID": "855",
+            "English": "company",
+            "Spanish": "compañia"
+        },
+        {
+            "ID": "856",
+            "English": "gold",
+            "Spanish": "oro"
+        },
+        {
+            "ID": "857",
+            "English": "to return",
+            "Spanish": "regresar"
+        },
+        {
+            "ID": "858",
+            "English": "text",
+            "Spanish": "texto"
+        },
+        {
+            "ID": "859",
+            "English": "source",
+            "Spanish": "fuente"
+        },
+        {
+            "ID": "860",
+            "English": "present",
+            "Spanish": "presente"
+        },
+        {
+            "ID": "861",
+            "English": "official",
+            "Spanish": "oficial"
+        },
+        {
+            "ID": "862",
+            "English": "difinitive",
+            "Spanish": "difinitive"
+        },
+        {
+            "ID": "863",
+            "English": "magazine",
+            "Spanish": "revista"
+        },
+        {
+            "ID": "864",
+            "English": "damage",
+            "Spanish": "daño"
+        },
+        {
+            "ID": "865",
+            "English": "hope",
+            "Spanish": "esperanza"
+        },
+        {
+            "ID": "866",
+            "English": "machine",
+            "Spanish": "máquina"
+        },
+        {
+            "ID": "867",
+            "English": "to contemplate",
+            "Spanish": "contemplar"
+        },
+        {
+            "ID": "868",
+            "English": "to travel",
+            "Spanish": "recorrer"
+        },
+        {
+            "ID": "869",
+            "English": "mind",
+            "Spanish": "mente"
+        },
+        {
+            "ID": "870",
+            "English": "phrase",
+            "Spanish": "frase"
+        },
+        {
+            "ID": "871",
+            "English": "exercise",
+            "Spanish": "ejercicio"
+        },
+        {
+            "ID": "872",
+            "English": "room",
+            "Spanish": "sala"
+        },
+        {
+            "ID": "873",
+            "English": "to last",
+            "Spanish": "durar"
+        },
+        {
+            "ID": "874",
+            "English": "instrument",
+            "Spanish": "instrumento"
+        },
+        {
+            "ID": "875",
+            "English": "that",
+            "Spanish": "aquello"
+        },
+        {
+            "ID": "876",
+            "English": "defense",
+            "Spanish": "defensa"
+        },
+        {
+            "ID": "877",
+            "English": "director",
+            "Spanish": "director"
+        },
+        {
+            "ID": "878",
+            "English": "remove",
+            "Spanish": "retirar"
+        },
+        {
+            "ID": "879",
+            "English": "explanation",
+            "Spanish": "explicación"
+        },
+        {
+            "ID": "880",
+            "English": "article",
+            "Spanish": "artículo"
+        },
+        {
+            "ID": "881",
+            "English": "below",
+            "Spanish": "debajo"
+        },
+        {
+            "ID": "882",
+            "English": "to remain",
+            "Spanish": "permanecer"
+        },
+        {
+            "ID": "883",
+            "English": "to attend",
+            "Spanish": "asistir"
+        },
+        {
+            "ID": "884",
+            "English": "twelve",
+            "Spanish": "doce"
+        },
+        {
+            "ID": "885",
+            "English": "permission",
+            "Spanish": "permiso"
+        },
+        {
+            "ID": "886",
+            "English": "radio",
+            "Spanish": "radio"
+        },
+        {
+            "ID": "887",
+            "English": "to organize",
+            "Spanish": "organizar"
+        },
+        {
+            "ID": "888",
+            "English": "choice",
+            "Spanish": "elección"
+        },
+        {
+            "ID": "889",
+            "English": "visit",
+            "Spanish": "visita"
+        },
+        {
+            "ID": "890",
+            "English": "funny",
+            "Spanish": "divertido"
+        },
+        {
+            "ID": "891",
+            "English": "to contain",
+            "Spanish": "contener"
+        },
+        {
+            "ID": "892",
+            "English": "support",
+            "Spanish": "apoyo"
+        },
+        {
+            "ID": "893",
+            "English": "tree",
+            "Spanish": "árbol"
+        },
+        {
+            "ID": "894",
+            "English": "to visit",
+            "Spanish": "visitar"
+        },
+        {
+            "ID": "895",
+            "English": "to report",
+            "Spanish": "informar"
+        },
+        {
+            "ID": "896",
+            "English": "encounter",
+            "Spanish": "encuentro"
+        },
+        {
+            "ID": "897",
+            "English": "sex",
+            "Spanish": "sexo"
+        },
+        {
+            "ID": "898",
+            "English": "like",
+            "Spanish": "parecido"
+        },
+        {
+            "ID": "899",
+            "English": "current",
+            "Spanish": "corriente"
+        },
+        {
+            "ID": "900",
+            "English": "friendly",
+            "Spanish": "amable"
+        },
+        {
+            "ID": "901",
+            "English": "reading",
+            "Spanish": "lectura"
+        },
+        {
+            "ID": "902",
+            "English": "message",
+            "Spanish": "mensaje"
+        },
+        {
+            "ID": "903",
+            "English": "existence",
+            "Spanish": "existencia"
+        },
+        {
+            "ID": "904",
+            "English": "language",
+            "Spanish": "lenguaje"
+        },
+        {
+            "ID": "905",
+            "English": "costume",
+            "Spanish": "traje"
+        },
+        {
+            "ID": "906",
+            "English": "to send",
+            "Spanish": "enviar"
+        },
+        {
+            "ID": "907",
+            "English": "soul",
+            "Spanish": "alma"
+        },
+        {
+            "ID": "908",
+            "English": "even, yet, still",
+            "Spanish": "aun"
+        },
+        {
+            "ID": "909",
+            "English": "destination",
+            "Spanish": "destino"
+        },
+        {
+            "ID": "910",
+            "English": "education",
+            "Spanish": "educación"
+        },
+        {
+            "ID": "911",
+            "English": "to care",
+            "Spanish": "cuidar"
+        },
+        {
+            "ID": "912",
+            "English": "to intervene",
+            "Spanish": "intervenir"
+        },
+        {
+            "ID": "913",
+            "English": "dinner",
+            "Spanish": "cena"
+        },
+        {
+            "ID": "914",
+            "English": "operation",
+            "Spanish": "operación"
+        },
+        {
+            "ID": "915",
+            "English": "perfectly",
+            "Spanish": "perfectamente"
+        },
+        {
+            "ID": "916",
+            "English": "to extend",
+            "Spanish": "extender"
+        },
+        {
+            "ID": "917",
+            "English": "to check",
+            "Spanish": "comprobar"
+        },
+        {
+            "ID": "918",
+            "English": "note",
+            "Spanish": "nota"
+        },
+        {
+            "ID": "919",
+            "English": "particular",
+            "Spanish": "particular"
+        },
+        {
+            "ID": "920",
+            "English": "to delay",
+            "Spanish": "tardar"
+        },
+        {
+            "ID": "921",
+            "English": "in, inside",
+            "Spanish": "adentro"
+        },
+        {
+            "ID": "922",
+            "English": "military",
+            "Spanish": "militar"
+        },
+        {
+            "ID": "923",
+            "English": "song",
+            "Spanish": "canción"
+        },
+        {
+            "ID": "924",
+            "English": "attached",
+            "Spanish": "unido"
+        },
+        {
+            "ID": "925",
+            "English": "to discuss",
+            "Spanish": "discutir"
+        },
+        {
+            "ID": "926",
+            "English": "to fear",
+            "Spanish": "temer"
+        },
+        {
+            "ID": "927",
+            "English": "extraordinary",
+            "Spanish": "extraordinario"
+        },
+        {
+            "ID": "928",
+            "English": "theater",
+            "Spanish": "teatro"
+        },
+        {
+            "ID": "929",
+            "English": "to face",
+            "Spanish": "enfrentar"
+        },
+        {
+            "ID": "930",
+            "English": "newly, freshly",
+            "Spanish": "recién"
+        },
+        {
+            "ID": "931",
+            "English": "average",
+            "Spanish": "media"
+        },
+        {
+            "ID": "932",
+            "English": "letter",
+            "Spanish": "letra"
+        },
+        {
+            "ID": "933",
+            "English": "feeling",
+            "Spanish": "sentimiento"
+        },
+        {
+            "ID": "934",
+            "English": "to drive",
+            "Spanish": "conducir"
+        },
+        {
+            "ID": "935",
+            "English": "completely",
+            "Spanish": "completamente"
+        },
+        {
+            "ID": "936",
+            "English": "cold",
+            "Spanish": "frío"
+        },
+        {
+            "ID": "937",
+            "English": "to sign",
+            "Spanish": "firmar"
+        },
+        {
+            "ID": "938",
+            "English": "solution",
+            "Spanish": "solución"
+        },
+        {
+            "ID": "939",
+            "English": "health",
+            "Spanish": "salud"
+        },
+        {
+            "ID": "940",
+            "English": "works",
+            "Spanish": "funciona"
+        },
+        {
+            "ID": "941",
+            "English": "print",
+            "Spanish": "impresión"
+        },
+        {
+            "ID": "942",
+            "English": "to complain",
+            "Spanish": "quejarse"
+        },
+        {
+            "ID": "943",
+            "English": "intention",
+            "Spanish": "intención"
+        },
+        {
+            "ID": "944",
+            "English": "rate",
+            "Spanish": "ritmo"
+        },
+        {
+            "ID": "945",
+            "English": "green",
+            "Spanish": "verde"
+        },
+        {
+            "ID": "946",
+            "English": "exact",
+            "Spanish": "exacto"
+        },
+        {
+            "ID": "947",
+            "English": "to respect",
+            "Spanish": "respetar"
+        },
+        {
+            "ID": "948",
+            "English": "terrible",
+            "Spanish": "terrible"
+        },
+        {
+            "ID": "949",
+            "English": "bank",
+            "Spanish": "banco"
+        },
+        {
+            "ID": "950",
+            "English": "via",
+            "Spanish": "vía"
+        },
+        {
+            "ID": "951",
+            "English": "to hold",
+            "Spanish": "sostener"
+        },
+        {
+            "ID": "952",
+            "English": "moon",
+            "Spanish": "luna"
+        },
+        {
+            "ID": "953",
+            "English": "skin",
+            "Spanish": "piel"
+        },
+        {
+            "ID": "954",
+            "English": "left",
+            "Spanish": "izquierda"
+        },
+        {
+            "ID": "955",
+            "English": "before",
+            "Spanish": "delante"
+        },
+        {
+            "ID": "956",
+            "English": "religious",
+            "Spanish": "religioso"
+        },
+        {
+            "ID": "957",
+            "English": "to warn",
+            "Spanish": "advertir"
+        },
+        {
+            "ID": "958",
+            "English": "dark",
+            "Spanish": "oscuro"
+        },
+        {
+            "ID": "959",
+            "English": "research",
+            "Spanish": "investigación"
+        },
+        {
+            "ID": "960",
+            "English": "heat",
+            "Spanish": "calor"
+        },
+        {
+            "ID": "961",
+            "English": "shop",
+            "Spanish": "tienda"
+        },
+        {
+            "ID": "962",
+            "English": "conversation",
+            "Spanish": "conversación"
+        },
+        {
+            "ID": "963",
+            "English": "Christmas",
+            "Spanish": "navidad"
+        },
+        {
+            "ID": "964",
+            "English": "summer",
+            "Spanish": "verano"
+        },
+        {
+            "ID": "965",
+            "English": "respect",
+            "Spanish": "respeto"
+        },
+        {
+            "ID": "966",
+            "English": "grandfather",
+            "Spanish": "abuelo"
+        },
+        {
+            "ID": "967",
+            "English": "north",
+            "Spanish": "norte"
+        },
+        {
+            "ID": "968",
+            "English": "through",
+            "Spanish": "mediante"
+        },
+        {
+            "ID": "969",
+            "English": "tradition",
+            "Spanish": "tradición"
+        },
+        {
+            "ID": "970",
+            "English": "is sufficient to (to be enough)",
+            "Spanish": "bastar"
+        },
+        {
+            "ID": "971",
+            "English": "couple",
+            "Spanish": "pareja"
+        },
+        {
+            "ID": "972",
+            "English": "population",
+            "Spanish": "población"
+        },
+        {
+            "ID": "973",
+            "English": "lawyer",
+            "Spanish": "abogado"
+        },
+        {
+            "ID": "974",
+            "English": "daily",
+            "Spanish": "diario"
+        },
+        {
+            "ID": "975",
+            "English": "honor",
+            "Spanish": "honor"
+        },
+        {
+            "ID": "976",
+            "English": "blue",
+            "Spanish": "azul"
+        },
+        {
+            "ID": "977",
+            "English": "to mention",
+            "Spanish": "mencionar"
+        },
+        {
+            "ID": "978",
+            "English": "generation",
+            "Spanish": "generación"
+        },
+        {
+            "ID": "979",
+            "English": "vision",
+            "Spanish": "visión"
+        },
+        {
+            "ID": "980",
+            "English": "concrete",
+            "Spanish": "concrete"
+        },
+        {
+            "ID": "981",
+            "English": "completed",
+            "Spanish": "terminado"
+        },
+        {
+            "ID": "982",
+            "English": "to propose",
+            "Spanish": "plantear"
+        },
+        {
+            "ID": "983",
+            "English": "left",
+            "Spanish": "dejado"
+        },
+        {
+            "ID": "984",
+            "English": "to test",
+            "Spanish": "probar"
+        },
+        {
+            "ID": "985",
+            "English": "to swear, pledge",
+            "Spanish": "jurar"
+        },
+        {
+            "ID": "986",
+            "English": "beautiful",
+            "Spanish": "hermoso"
+        },
+        {
+            "ID": "987",
+            "English": "danger",
+            "Spanish": "peligro"
+        },
+        {
+            "ID": "988",
+            "English": "confidence",
+            "Spanish": "confianza"
+        },
+        {
+            "ID": "989",
+            "English": "to fill",
+            "Spanish": "llenar"
+        },
+        {
+            "ID": "990",
+            "English": "simple",
+            "Spanish": "sencillo"
+        },
+        {
+            "ID": "991",
+            "English": "to improve",
+            "Spanish": "mejorar"
+        },
+        {
+            "ID": "992",
+            "English": "concept",
+            "Spanish": "concepto"
+        },
+        {
+            "ID": "993",
+            "English": "to highlight",
+            "Spanish": "destacar"
+        },
+        {
+            "ID": "994",
+            "English": "wood",
+            "Spanish": "madera"
+        },
+        {
+            "ID": "995",
+            "English": "to walk",
+            "Spanish": "caminar"
+        },
+        {
+            "ID": "996",
+            "English": "to employ",
+            "Spanish": "emplear"
+        },
+        {
+            "ID": "997",
+            "English": "to agree",
+            "Spanish": "convenir"
+        },
+        {
+            "ID": "998",
+            "English": "energy",
+            "Spanish": "energía"
+        },
+        {
+            "ID": "999",
+            "English": "to admit",
+            "Spanish": "admitir"
+        },
+        {
+            "ID": "1000",
+            "English": "is delightful to (to love)",
+            "Spanish": "encantar"
+        }
+]
