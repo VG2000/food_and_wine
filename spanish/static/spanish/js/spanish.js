@@ -6,9 +6,7 @@ const english = document.getElementById('english');
 const spanish = document.getElementById('spanish');
 
 const number = document.getElementById('flash-num');
-
-const url ='http://127.0.0.1:8000/spanish/flashcards/word/'
-
+const url =window.location.href+'word/'
 
 
 
@@ -22,7 +20,6 @@ function getWord() {
         spanish.innerText = data['spanish_word']
         english.innerText = data['english_word']
         number.value = `${data['id']}`
-        console.log(data)
     }     
     );
 }

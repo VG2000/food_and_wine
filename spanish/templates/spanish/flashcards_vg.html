@@ -42,7 +42,8 @@ const vgFetchBtn = document.getElementById('fetchAPI_vg');
 const vgShowBtn = document.getElementById('vgShowBtn');
 const vgNumber = document.getElementById('flash-num-vg');
 
-const vg_url ='http://127.0.0.1:8000/spanish/flashcards/word/vg/'
+const vg_url =window.location.href+'word/vg/'
+
 
 function vgGetWord() {
     fetch(vg_url)
