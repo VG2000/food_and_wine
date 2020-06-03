@@ -62,8 +62,6 @@ function vgGetWord() {
           spanish_vg.innerText = data['spanish_word']
           english_vg.innerText = data['english_word']
           vgNumber.value = `${data['id']}`
-          console.log(data)
-          console.log(data['spanish_word'])
         };
         
     }     
@@ -75,9 +73,20 @@ function flipCard() {
     spanish_vg.classList.toggle('hide');
 }
 
-vgShowBtn.addEventListener('click', flipCard);
+function getFocus(e) {
+    if (e.keyCode === 32) {
+        flipCard()
+    } else if (e.keyCode === 13) {
+       vgGetWord();
+    } else {
 
+    };
+
+};
+
+vgShowBtn.addEventListener('click', flipCard);
 vgFetchBtn.addEventListener('click', vgGetWord);
+document.addEventListener('keyup', getFocus);
 
 </script>
 

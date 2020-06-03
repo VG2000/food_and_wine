@@ -39,7 +39,7 @@ def SpanishFlashCardView(request):
 
 def VGRevisionListView(request):
     id = request.GET.get('id')
-
+    print(id)
     if id:
         word = Words.objects.get(id=id)
         word.vg_list = False
