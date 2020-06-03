@@ -16,7 +16,7 @@ function getWord() {
     const loc = window.location.href
     const pos = loc.indexOf('?')
     const url_part = loc.slice(0,pos)
-    const url =url_part+'/word/'
+    const url =url_part+'word/'
 
     fetch(url)
     .then(res => res.json())
@@ -42,12 +42,9 @@ function flipCard() {
 function getFocus(e) {
     if (e.keyCode === 32) {
         flipCard()
-        console.log('flip card')
     } else if (e.keyCode === 13) {
        getWord();
-        console.log('getWord')
     } else {
-        console.log('other key press')
     };
 
 };
