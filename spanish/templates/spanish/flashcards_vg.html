@@ -42,8 +42,11 @@ const vgFetchBtn = document.getElementById('fetchAPI_vg');
 const vgShowBtn = document.getElementById('vgShowBtn');
 const vgNumber = document.getElementById('flash-num-vg');
 
-const vg_url =window.location.href+'word/vg/'
-
+// replace vince with /word/vg to api
+const loc = window.location.href
+const pos = loc.indexOf('/vince')
+const url_part = loc.slice(0,pos)
+const vg_url =url_part+'/word/vg/'
 
 function vgGetWord() {
     fetch(vg_url)
@@ -52,10 +55,17 @@ function vgGetWord() {
         // need to make test for hide class to make sure that spanish shows and english is hiddem
         english_vg.classList.remove('show');
         spanish_vg.classList.remove('hide');
-        spanish_vg.innerText = data['spanish_word']
-        english_vg.innerText = data['english_word']
-        vgNumber.value = `${data['id']}`
-        console.log(data)
+        
+        if (data['spanish_word'] === undefined) {
+          spanish_vg.innerText = "No words in list"
+        } else {
+          spanish_vg.innerText = data['spanish_word']
+          english_vg.innerText = data['english_word']
+          vgNumber.value = `${data['id']}`
+          console.log(data)
+          console.log(data['spanish_word'])
+        };
+        
     }     
     );
 }

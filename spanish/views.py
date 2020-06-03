@@ -68,10 +68,14 @@ def fetchWordAPIView(request):
 def VinceAPIView(request):
     if request.method == 'GET':
             num_rows = Words.objects.filter(vg_list=True).order_by('id').count()
-            rand_num = randint(0,num_rows-1)
-            list = Words.objects.filter(vg_list=True).order_by('id')
-            rand_id = list[rand_num].id
-            
-            word = Words.objects.get(id=rand_id)
-            serializer = WordSerializer(word)
-            return Response(serializer.data)
+            if num_rows > 0:
+                rand_num = randint(0,num_rows-1)
+                list = Words.objects.filter(vg_list=True).order_by('id')
+                rand_id = list[rand_num].id
+                
+                word = Words.objects.get(id=rand_id)
+                serializer = WordSerializer(word)
+                return Response(serializer.data)
+            else:
+                return Response("No words currently saved")
+          
