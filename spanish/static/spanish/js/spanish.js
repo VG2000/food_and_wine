@@ -16,7 +16,7 @@ function getWord() {
     const loc = window.location.href
     const pos = loc.indexOf('?')
     const url_part = loc.slice(0,pos)
-    const url =url_part+'word/'
+    const url =url_part+'/word/'
 
     fetch(url)
     .then(res => res.json())
