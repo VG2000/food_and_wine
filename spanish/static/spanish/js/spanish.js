@@ -14,9 +14,12 @@ const saveBtn = document.getElementById('save');
 function getWord() {
     // check url
     const loc = window.location.href
-    const pos = loc.indexOf('?')
+    const pos = loc.lastIndexOf('/')
+    
+    console.log(pos)
+
     const url_part = loc.slice(0,pos)
-    const url =url_part+'word/'
+    const url =url_part+'/word/'
 
     fetch(url)
     .then(res => res.json())

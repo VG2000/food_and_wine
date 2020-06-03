@@ -63,14 +63,15 @@ function vgGetWord() {
           english_vg.innerText = data['english_word']
           vgNumber.value = `${data['id']}`
         };
-        
     }     
     );
+    vgFetchBtn.blur();
 }
 
 function flipCard() {
     english_vg.classList.toggle('show');
     spanish_vg.classList.toggle('hide');
+    vgFetchBtn.blur();
 }
 
 function getFocus(e) {
