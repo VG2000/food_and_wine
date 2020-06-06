@@ -25,7 +25,7 @@ class Wine(models.Model):
     price = models.FloatField(blank=True, null=True)
     comment = models.CharField(max_length=100, blank=True)
     blend = models.CharField(max_length=100, blank=True)
-    vg_rating = models.FloatField(blank=True, null=True, verbose_name="Vince's rating")
+    vg_rating = models.FloatField(blank=True, null=True, verbose_name="Vince's Rating")
     entry_dt = models.DateField(auto_now_add=True)
     amend_dt = models.DateField(blank=True, null=True)
     url = models.URLField(blank=True)

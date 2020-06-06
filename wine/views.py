@@ -35,13 +35,11 @@ class WineCreateView(LoginRequiredMixin, CreateView):
 
 
 #this is the view for the dependent dropdown list form.. Try later...
-class WineListView(LoginRequiredMixin, ListView):
-    model = Wine
-    form_class = WineFilterForm
-    context_object_name = 'wines'
-    template_name = 'wine/wine_list.html'
-
-
+# class WineListView(LoginRequiredMixin, ListView):
+#     model = Wine
+#     form_class = WineFilterForm
+#     context_object_name = 'wines'
+#     template_name = 'wine/wine_list.html'
 
 @login_required
 def WineFilterListView(request):
@@ -97,6 +95,7 @@ def WineSearchView(request):
 
 def load_regions(request):
     country_id = request.GET.get('country')
+    print(country_id)
     regions = Region.objects.filter(country_id=country_id).order_by('region')
 
     return render(request, 'wine/region_list.html', {'regions': regions})

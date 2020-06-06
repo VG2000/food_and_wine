@@ -15,8 +15,8 @@ class AddWineForm(ModelForm):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, **kwargs)
             self.fields['region'].queryset = Region.objects.none()
-            self.fields['region'].queryset = Region.objects.all().order_by('region')
-            self.fields['country'].queryset = Country.objects.all().order_by('country')
+            # self.fields['region'].queryset = Region.objects.all().order_by('region')
+            # self.fields['country'].queryset = Country.objects.all().order_by('country')
 
             if 'country' in self.data:
                 try:

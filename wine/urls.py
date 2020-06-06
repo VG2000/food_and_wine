@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import WineHomeView, WineCreateView, WineListView, WineEditView, load_regions, WineFilterListView, WineSearchView, WineDeleteView, WineAPI
+from .views import WineHomeView, WineCreateView, WineEditView, load_regions, WineFilterListView, WineSearchView, WineDeleteView, WineAPI
 
 
 urlpatterns = [

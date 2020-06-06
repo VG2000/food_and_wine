@@ -50,6 +50,10 @@ section {
   border: none;
 }
 
+#inputRetailer {
+  border: none;
+}
+
 #wine-list {
   /* background-color: rgb(133, 193, 233); */
   margin: 0;
