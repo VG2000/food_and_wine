@@ -128,9 +128,30 @@ function sortTable(n) {
       one from current row and one from the next: */
       x = rows[i].getElementsByTagName("TD")[n];
       y = rows[i + 1].getElementsByTagName("TD")[n];
+
+    //   console.log(x.innerHTML.toLowerCase().replace('£',''))
       /* Check if the two rows should switch place,
       based on the direction, asc or desc: */
-      if (dir == "asc") {
+
+    //   Check for a number
+        if (Number(x.innerHTML.toLowerCase().replace('£',''))) {
+            console.log(x.innerHTML)
+                if (dir == "asc") {
+            if (Number(x.innerHTML.replace('£', '')) > Number(y.innerHTML.replace('£', ''))) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+            }
+        } else if (dir == "desc") {
+            if (Number(x.innerHTML.replace('£', '')) < Number(y.innerHTML.replace('£', ''))) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+            }
+        }
+            // Is not a number so do the text sort
+        } else {
+            if (dir == "asc") {
         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
           // If so, mark as a switch and break the loop:
           shouldSwitch = true;
@@ -143,6 +164,8 @@ function sortTable(n) {
           break;
         }
       }
+        }
+      
     }
     if (shouldSwitch) {
       /* If a switch has been marked, make the switch
